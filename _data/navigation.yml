@@ -304,36 +304,3 @@ es-UY: #Spanish (Uruguay)
 es-VE: #Spanish (Venezuela)
   <<: *DEFAULT_ES
 
-# Deutsch (https://localizely.com/language-code/de/)
-# -----------------
-de: &DEFAULT_DE
-  nav:
-    - title: "Leistungen"
-      section: Leistungen
-    - title: "Portfolio"
-      section: Portfolio
-    - title: "Über uns"
-      section: Ueber
-    - title: "Geschichte"
-      section: Geschichte
-    - title: "Team"
-      section: Team
-    - title: "Kontakt"
-      section: Kontakt
-    - title: "Quellcode des Themas"
-      url: https://github.com/raviriley/agency-jekyll-theme/
-
-de-AT: #German (Austria)
-  <<: *DEFAULT_DE
-de-BE: #German (Belgium)
-  <<: *DEFAULT_DE
-de-CH: #German (Switzerland)
-  <<: *DEFAULT_DE
-de-DE: #German (Germany)
-  <<: *DEFAULT_DE
-de-IT: #German (Italy)
-  <<: *DEFAULT_DE
-de-LI: #German (Liechtenstein)
-  <<: *DEFAULT_DE
-de-LU: #German (Luxembourg)
-  <<: *DEFAULT_DE
