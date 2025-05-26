@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   header:
     title: Democratic Socialists of America
     text: Flint Hills
-    button: Join
+    button: Become a Member
     buttonlink: "#about"
 
   services:
