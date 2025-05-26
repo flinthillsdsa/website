@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title: Democratic Socialists of America
     text: Flint Hills 
 
- services:
+  services:
     title: "Services"
     text: "Lorem ipsum"
     section: services
@@ -29,13 +29,13 @@ en: &DEFAULT_EN
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
 
-  portfolio:
+   portfolio:
     title: "Portfolio"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     closebutton: "Close Project"
 
-  timeline:
+   timeline:
     title: "Timeline"
     text: "Lorem ipsum timeline"
     section: timeline
@@ -66,23 +66,23 @@ en: &DEFAULT_EN
         align: right
     end: "Be Part <br> of Our <br> Story!"
 
-  about:
+   about:
     title: "Who We Are"
     text: "Learn more about our purpose:"
-    body: | 
+    body:  | 
     
     The Flint Hills Chapter of Democratic Socialists of America seeks to facilitate the transition to a truly democratic and socialist society, one in which the means and resources of production are democratically and socially controlled.  The Chapter is organized primarily to promote social welfare.  
   
-   DSA rejects an economic order based solely on private profit, alienated labor, gross inequalities of wealth and power, discrimination based on race, ability, gender or sexual orientation, and brutality and violence in defense of the status quo.  
+    DSA rejects an economic order based solely on private profit, alienated labor, gross inequalities of wealth and power, discrimination based on race, ability, gender or sexual orientation, and brutality and violence in defense of the status quo.  
 
-	DSA envisions a humane social order based on popular control of resources, production, and economic planning; economic and environmental sustainability; equitable distribution; gender, racial, and ethnic equality; and non-oppressive relationships.  
+    DSA envisions a humane social order based on popular control of resources, production, and economic planning; economic and environmental sustainability; equitable distribution; gender, racial, and ethnic equality; and non-oppressive relationships.  
 
-Our conception of socialism is a profoundly democratic one.  It is rooted in the belief that human beings should be free to develop to their fullest potential, that public policies should be determined not by wealth but by popular participation, and that individual liberties should be carefully safeguarded.  It is committed to a freedom of speech that does not recoil from dissent, to a freedom to organize independent trade unions, women’s groups, political parties, and other formations—recognizing these as essential bulwarks against the dangers of an intrusive state.  It is committed to a freedom of religion that acknowledges the rights of those for whom spiritual concerns are central.  
+    Our conception of socialism is a profoundly democratic one.  It is rooted in the belief that human beings should be free to develop to their fullest potential, that public policies should be determined not by wealth but by popular participation, and that individual liberties should be carefully safeguarded.  It is committed to a freedom of speech that does not recoil from dissent, to a freedom to organize independent trade unions, women’s groups, political parties, and other formations—recognizing these as essential bulwarks against the dangers of an intrusive state.  It is committed to a freedom of religion that acknowledges the rights of those for whom spiritual concerns are central.  
 
-We are socialists because we are developing a concrete strategy for achieving that vision.  In the present, we are building a visible socialist presence within the broad democratic Left.  In the long run, we hope to build a majority movement capable of making democratic socialism a reality in the United States.  Our strategy acknowledges the class structure of the U.S. society.  This class structure means that there is a basic conflict of interest between those sectors with enormous economic power and the vast majority of the population.
+    We are socialists because we are developing a concrete strategy for achieving that vision.  In the present, we are building a visible socialist presence within the broad democratic Left.  In the long run, we hope to build a majority movement capable of making democratic socialism a reality in the United States.  Our strategy acknowledges the class structure of the U.S. society.  This class structure means that there is a basic conflict of interest between those sectors with enormous economic power and the vast majority of the population.
     section: about
 
-  clients:
+   clients:
     section: clients
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
@@ -100,7 +100,7 @@ We are socialists because we are developing a concrete strategy for achieving th
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
 
-  team:
+   team:
     title: "OUR AMAZING TEAM"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
@@ -137,7 +137,7 @@ We are socialists because we are developing a concrete strategy for achieving th
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
 
-  contact:
+   contact:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
     section: contact
@@ -152,7 +152,7 @@ We are socialists because we are developing a concrete strategy for achieving th
     subject: "Contact Form Submission"
     submit: "Send Message"
   
-  footer:
+   footer:
     legal: "Privacy Policy"
     social:
       - url: https://twitter.com
