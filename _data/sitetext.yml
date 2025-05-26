@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Flint Hills
-    text: Democratic Socialist of America
+    title: Democratic Socialits of America
+    text: Flint Hills Chapter
   
 
   services:
