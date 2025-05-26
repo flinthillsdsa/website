@@ -14,19 +14,143 @@ en: &DEFAULT_EN
     title: Democratic Socialists of America
     text: Flint Hills 
 
+ services:
+    title: "Services"
+    text: "Lorem ipsum"
+    section: services
+    list:
+      - title: "E-Commerce"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Responsive Design"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "Timeline"
+    text: "Lorem ipsum timeline"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Our Humble Beginnings"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "An Agency is Born"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Jekyll Theme is created"
+        year: "2019"
+        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Title"
+        year: "2009-2011"
+        desc: "Your description here, **Markdown** is fully supported."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
   about:
-  section: "about"
-  title: "Who We Are"
-  text: "Learn about our purpose"
-  body: |
-    DSA rejects an economic order based solely on private profit, alienated labor, gross inequalities of wealth and power, discrimination based on race, ability, gender or sexual orientation, and brutality and violence in defense of the status quo.
+    title: "Who We Are"
+    text: "Learn more about our purpose:"
+    body: | 
+    
+    The Flint Hills Chapter of Democratic Socialists of America seeks to facilitate the transition to a truly democratic and socialist society, one in which the means and resources of production are democratically and socially controlled.  The Chapter is organized primarily to promote social welfare.  
+  
+   DSA rejects an economic order based solely on private profit, alienated labor, gross inequalities of wealth and power, discrimination based on race, ability, gender or sexual orientation, and brutality and violence in defense of the status quo.  
 
-    DSA envisions a humane social order based on popular control of resources, production, and economic planning; economic and environmental sustainability; equitable distribution; gender, racial, and ethnic equality; and non-oppressive relationships.
+	DSA envisions a humane social order based on popular control of resources, production, and economic planning; economic and environmental sustainability; equitable distribution; gender, racial, and ethnic equality; and non-oppressive relationships.  
 
-    Our conception of socialism is a profoundly democratic one. It is rooted in the belief that human beings should be free to develop to their fullest potential, that public policies should be determined not by wealth but by popular participation, and that individual liberties should be carefully safeguarded. It is committed to a freedom of speech that does not recoil from dissent, to a freedom to organize independent trade unions, women’s groups, political parties, and other formations—recognizing these as essential bulwarks against the dangers of an intrusive state. It is committed to a freedom of religion that acknowledges the rights of those for whom spiritual concerns are central.
+Our conception of socialism is a profoundly democratic one.  It is rooted in the belief that human beings should be free to develop to their fullest potential, that public policies should be determined not by wealth but by popular participation, and that individual liberties should be carefully safeguarded.  It is committed to a freedom of speech that does not recoil from dissent, to a freedom to organize independent trade unions, women’s groups, political parties, and other formations—recognizing these as essential bulwarks against the dangers of an intrusive state.  It is committed to a freedom of religion that acknowledges the rights of those for whom spiritual concerns are central.  
 
-    We are socialists because we are developing a concrete strategy for achieving that vision. In the present, we are building a visible socialist presence within the broad democratic Left. In the long run, we hope to build a majority movement capable of making democratic socialism a reality in the United States. Our strategy acknowledges the class structure of the U.S. society. This class structure means that there is a basic conflict of interest between those sectors with enormous economic power and the vast majority of the population.
-  section: about
+We are socialists because we are developing a concrete strategy for achieving that vision.  In the present, we are building a visible socialist presence within the broad democratic Left.  In the long run, we hope to build a majority movement capable of making democratic socialism a reality in the United States.  Our strategy acknowledges the class structure of the U.S. society.  This class structure means that there is a basic conflict of interest between those sectors with enormous economic power and the vast majority of the population.
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "OUR AMAZING TEAM"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contact Us"
+    text: "Lorem ipsum or call 123456789"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
   
   footer:
     legal: "Privacy Policy"
