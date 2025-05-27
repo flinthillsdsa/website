@@ -1,58 +1,62 @@
 // Global styles for all portfolio-style sections
 
 .portfolio-item {
-  right: 0;
+  // Reset margins and ensure positioning
+  position: relative;
   margin: 0 0 15px;
 
+  // Link wrapper holds hover overlay and image
   .portfolio-link {
     position: relative;
     display: block;
-    max-width: 400px;
-    margin: 0 auto;
     cursor: pointer;
 
+    // Hover overlay
     .portfolio-hover {
       position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
-      -webkit-transition: all ease 0.5s;
-      -moz-transition: all ease 0.5s;
-      transition: all ease 0.5s;
       opacity: 0;
-      background: fade-out($primary, 0.1);
+      transition: opacity 0.5s ease;
+      background: rgba(254, 209, 54, 0.9);
 
       &:hover {
         opacity: 1;
       }
 
       .portfolio-hover-content {
-        font-size: 20px;
         position: absolute;
         top: 50%;
+        left: 0;
         width: 100%;
-        height: 20px;
-        margin-top: -12px;
+        transform: translateY(-50%);
         text-align: center;
-        color: white;
+        color: #fff;
 
+        // Icon sizing
         i {
-          margin-top: -12px;
-        }
-
-        h3,
-        h4 {
-          margin: 0;
+          font-size: 3em;
         }
       }
     }
+
+    // Grid image sizing — full width of link
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
   }
 
+  // Caption below image
   .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
     padding: 25px;
     text-align: center;
-    background-color: $white;
+    background-color: #fff;
 
     h4 {
       margin: 0;
@@ -63,22 +67,19 @@
       font-size: 16px;
       font-style: italic;
       margin: 0;
-      @include serif-font;
+      // @include serif-font; // uncomment if needed
     }
   }
 }
 
-* {
-  z-index: 2;
-}
-
+// Spacing adjustments for larger screens
 @media (min-width: 767px) {
   .portfolio-item {
     margin: 0 0 30px;
   }
 }
 
-// Modal styles remain unchanged — they already apply globally
+// Modal styles remain unchanged — they apply globally
 .portfolio-modal {
   .modal-dialog {
     margin: 1rem;
@@ -102,7 +103,7 @@
       font-size: 16px;
       font-style: italic;
       margin: 20px 0 30px;
-      @include serif-font;
+      // @include serif-font;
     }
 
     ul.list-inline {
@@ -111,6 +112,9 @@
     }
 
     img {
+      max-width: 300px;
+      width: 100%;
+      height: auto;
       margin-bottom: 30px;
     }
 
