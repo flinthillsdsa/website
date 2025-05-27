@@ -6,7 +6,7 @@ alt: People and a gear icon
 
 caption:
   title: Organizing
-  subtitle: Chapter Priorities
+  #subtitle: Chapter Priorities
   thumbnail: https://www.fhdsa.org/assets/img/about/organizing.png
 ---
 ##### Each year, the Chapter takes a vote on the most pressing matters for which we would like to put our collective engergy toward organizing and mobilizing. Given our growing numbers, we are prioritizing the following:
