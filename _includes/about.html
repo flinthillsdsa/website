@@ -14,10 +14,19 @@
         <a class="portfolio-link" data-toggle="modal" href="{{ item.modal_target }}">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
-              <i class="fas fa-search fa-3x"></i>
+              <i class="fas fa-search fa-3x text-white"></i>
             </div>
           </div>
-          <img class="img-fluid" src="{{ item.thumbnail }}" alt="{{ item.title }}">
+          <!-- square tile with primary bg and white icon -->
+          <div
+            class="position-relative w-100"
+            style="padding-top:100%; background-color: var(--bs-primary);"
+          >
+            <i
+              class="fas {{ item.icon }} fa-3x text-white position-absolute"
+              style="top:50%; left:50%; transform: translate(-50%, -50%);"
+            ></i>
+          </div>
         </a>
         <div class="portfolio-caption">
           <h4>{{ item.title }}</h4>
@@ -42,10 +51,18 @@
         <a class="portfolio-link" data-toggle="modal" href="{{ item.modal_target }}">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
-              <i class="fas fa-search fa-3x"></i>
+              <i class="fas fa-search fa-3x text-white"></i>
             </div>
           </div>
-          <img class="img-fluid" src="{{ item.thumbnail }}" alt="{{ item.title }}">
+          <div
+            class="position-relative w-100"
+            style="padding-top:100%; background-color: var(--bs-primary);"
+          >
+            <i
+              class="fas {{ item.icon }} fa-3x text-white position-absolute"
+              style="top:50%; left:50%; transform: translate(-50%, -50%);"
+            ></i>
+          </div>
         </a>
         <div class="portfolio-caption">
           <h4>{{ item.title }}</h4>
