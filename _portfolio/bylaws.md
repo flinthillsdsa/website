@@ -2,12 +2,12 @@
 caption: #what displays in the portfolio grid:
   title: By-laws
   #subtitle: subtitle
-  thumbnail: https://www.fhdsa.org/assets/img/gavel.png
+  thumbnail: https://www.fhdsa.org/assets/img/about/gavel.png
   
 #what displays when the item is clicked:
 title: By-laws of the Flint Hills Chapter of Democratic Socialists of America 
 subtitle: Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd.  .
-image: https://www.fhdsa.org/assets/img/gavel.png
+image: https://www.fhdsa.org/assets/img/about/gavel.png
 alt: image alt text
 
 ---
