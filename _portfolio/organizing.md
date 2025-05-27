@@ -5,7 +5,7 @@ image: https://www.fhdsa.org/assets/img/about/organizing.png
 alt: People and a gear icon
 
 caption:
-  title: Organizaing
+  title: Organizing
   subtitle: Chapter Priorities
   thumbnail: https://www.fhdsa.org/assets/img/about/organizing.png
 ---
