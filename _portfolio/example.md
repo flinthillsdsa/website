@@ -1,8 +1,8 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Example
-  subtitle: subtitle
-  thumbnail: https://place-hold.it/400x300
+  title: By-laws
+  #subtitle: subtitle
+  thumbnail: https://www.fhdsa.org/assets/img/gavel.png
   
 #what displays when the item is clicked:
 title: Title
@@ -11,12 +11,5 @@ image: https://place-hold.it/400x300 #main image, can be a link or a file in ass
 alt: image alt text
 
 ---
-Use this area to describe your project. **Markdown** supported.
 
-optional info list (delete if not using):
-
-{:.list-inline} 
-- Date: 
-- Client: 
-- Category: 
-
+**These are our by-laws**
