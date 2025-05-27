@@ -17,7 +17,6 @@ en: &DEFAULT_EN
       section: team
     - title: "Contact"
       section: contact
- 
 
 en-001: #English (World)
   <<: *DEFAULT_EN
