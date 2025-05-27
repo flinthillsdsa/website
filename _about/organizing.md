@@ -8,7 +8,7 @@ caption:
   thumbnail: https://www.fhdsa.org/assets/img/about/organizing.png
 ---
   
-***
+
 
 ###### Each year, our Chapter votes on the most urgent issues we believe deserve our collective energy and focus. As our membership continues to grow, we are prioritizing the following areas:
 
