@@ -12,24 +12,27 @@ alt: image alt text
 
 ---
 
+Bylaws of the Flint Hills Chapter   
+of Democratic Socialists of America  
+Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd.  
 
 **ARTICLE I.  Name and Territory.**  
 
 Section 1\.  Name.
 
-	The name of the Chapter will be the Flint Hills Chapter of Democratic Socialists of America, hereinafter referred to as “Flint Hills DSA” or “Chapter” DSA.  Democratic Socialists of America (DSA) is a not-for-profit corporation.  
+The name of the Chapter will be the Flint Hills Chapter of Democratic Socialists of America, hereinafter referred to as “Flint Hills DSA” or “Chapter” DSA.  Democratic Socialists of America (DSA) is a not-for-profit corporation.  
 
 Section 2\.  Territory.
 
-	The Chapter shall conduct activities in the Flint Hills and Northeastern Kansas area within the territory defined by the charter granted by the national Democratic Socialists of America to the Flint Hills.  
+The Chapter shall conduct activities in the Flint Hills and Northeastern Kansas area within the territory defined by the charter granted by the national Democratic Socialists of America to the Flint Hills.  
 
 **ARTICLE II.  Purpose.**  
 
-	The Flint Hills Chapter of Democratic Socialists of America seeks to facilitate the transition to a truly democratic and socialist society, one in which the means and resources of production are democratically and socially controlled.  The Chapter is organized primarily to promote social welfare.  
+The Flint Hills Chapter of Democratic Socialists of America seeks to facilitate the transition to a truly democratic and socialist society, one in which the means and resources of production are democratically and socially controlled.  The Chapter is organized primarily to promote social welfare.  
 
-	DSA rejects an economic order based solely on private profit, alienated labor, gross inequalities of wealth and power, discrimination based on race, ability, gender or sexual orientation, and brutality and violence in defense of the status quo.  
+DSA rejects an economic order based solely on private profit, alienated labor, gross inequalities of wealth and power, discrimination based on race, ability, gender or sexual orientation, and brutality and violence in defense of the status quo.  
 
-	DSA envisions a humane social order based on popular control of resources, production, and economic planning; economic and environmental sustainability; equitable distribution; gender, racial, and ethnic equality; and non-oppressive relationships.  
+DSA envisions a humane social order based on popular control of resources, production, and economic planning; economic and environmental sustainability; equitable distribution; gender, racial, and ethnic equality; and non-oppressive relationships.  
 
 Our conception of socialism is a profoundly democratic one.  It is rooted in the belief that human beings should be free to develop to their fullest potential, that public policies should be determined not by wealth but by popular participation, and that individual liberties should be carefully safeguarded.  It is committed to a freedom of speech that does not recoil from dissent, to a freedom to organize independent trade unions, women’s groups, political parties, and other formations—recognizing these as essential bulwarks against the dangers of an intrusive state.  It is committed to a freedom of religion that acknowledges the rights of those for whom spiritual concerns are central.  
 
@@ -51,11 +54,11 @@ A member may resign from the Chapter to become an at-large member of DSA by writ
 
 Section 4\.  Removal of Members.
 
-	If a member in good standing is found to be in substantial disagreement with the principles or policies of National DSA, or if they are found to be consistently engaging in undemocratic, disruptive behavior, or if they are found to be under the discipline of any democratic centralist organization, the Chapter may vote to expel them from the Chapter of DSA.  In order for such a finding to be made, another DSA member shall formally submit written charges against the member in question to the Chapter Steering Committee, which will set the date of a Chapter meeting for deliberations on the charges.  The member in question must receive a copy of the written charges and notice of the meeting a minimum of two (2) weeks before that meeting takes place.  Expulsion of a member requires a two-thirds (⅔) vote of the Chapter meeting.  An expelled member in good standing must appeal first to the National Political Committee of DSA.  Decisions on expulsion by either the Chapter or National Organization may be appealed to the National Convention.
+If a member in good standing is found to be in substantial disagreement with the principles or policies of National DSA, or if they are found to be consistently engaging in undemocratic, disruptive behavior, or if they are found to be under the discipline of any democratic centralist organization, the Chapter may vote to expel them from the Chapter of DSA.  In order for such a finding to be made, another DSA member shall formally submit written charges against the member in question to the Chapter Steering Committee, which will set the date of a Chapter meeting for deliberations on the charges.  The member in question must receive a copy of the written charges and notice of the meeting a minimum of two (2) weeks before that meeting takes place.  Expulsion of a member requires a two-thirds (⅔) vote of the Chapter meeting.  An expelled member in good standing must appeal first to the National Political Committee of DSA.  Decisions on expulsion by either the Chapter or National Organization may be appealed to the National Convention.
 
 Section 5\.  Voluntary Donations.  
 
-	As mandated by the National Constitution and Bylaws, the Chapter may establish a Chapter pledge system of voluntary donations for its members.  The payment of a Chapter donation shall not be a requirement for voting or for holding Chapter office.  
+As mandated by the National Constitution and Bylaws, the Chapter may establish a Chapter pledge system of voluntary donations for its members.  The payment of a Chapter donation shall not be a requirement for voting or for holding Chapter office.  
 
 Section 6\.  Data Security.  
 
@@ -89,7 +92,7 @@ The Steering Committee will work to facilitate remote access to all meetings. Th
 
 Section 4\.  Special Meetings.  
 
-	The Chapter Steering Committee may call a Special Meeting of the Chapter on five (5) days’ notice when an urgent and important matter requires deliberation.  
+The Chapter Steering Committee may call a Special Meeting of the Chapter on five (5) days’ notice when an urgent and important matter requires deliberation.  
 
 Section 5\.  Rules.  
 
@@ -101,7 +104,7 @@ Any action taken by a Chapter Meeting in contravention of these bylaws is null a
 
 Section 6\.  Quorum.  
 
-	A quorum of five (5) percent of the members (but not fewer than six (5) persons) is required for Convention, General, or Special Meetings to transact business.  
+A quorum of five (5) percent of the members (but not fewer than six (5) persons) is required for Convention, General, or Special Meetings to transact business.  
 
 **ARTICLE V.  Chapter Officers.**  
 
@@ -157,7 +160,7 @@ The Membership Coordinator shall be responsible for drafting an overall Social M
 
 Section 7\.  Additional Duties and Actions Out of Order.  
 
-	The Chapter Steering Committee may assign additional temporary duties to an officer of the Chapter, so long as such assignments do not conflict with the designation of responsibilities outlined in these bylaws.
+The Chapter Steering Committee may assign additional temporary duties to an officer of the Chapter, so long as such assignments do not conflict with the designation of responsibilities outlined in these bylaws.
 
 Any action taken by an officer in contravention of these bylaws is null and void.  
 
@@ -185,7 +188,7 @@ An officer may be recalled by vote of the Steering Committee only under narrow c
 
 Section 1\.  Composition.  
 
-	The Steering Committee shall be composed of the five (5) officers of the Chapter.
+The Steering Committee shall be composed of the five (5) officers of the Chapter.
 
 Section 2\.  Duties.  
 
@@ -197,7 +200,7 @@ The Steering Committee is responsible for ensuring that the following responsibi
 
 Section 3\.  Meetings.
 
-	The meetings of the Steering Committee shall be held at the call of one (1) of the Co-Chairs at such regular intervals as may be determined by a prior Steering Committee Meeting or by consultation with any three (3) members of the Steering Committee.  All members of the Steering Committee must be given three (3) days oral, written, or electronic notice of Steering Committee Meetings unless all members of the Steering Committee accept shorter notice.  The Steering Committee shall give notice of its meeting schedule to Chapter members.  Meeting minutes shall be recorded and accessible to the membership.  
+The meetings of the Steering Committee shall be held at the call of one (1) of the Co-Chairs at such regular intervals as may be determined by a prior Steering Committee Meeting or by consultation with any three (3) members of the Steering Committee.  All members of the Steering Committee must be given three (3) days oral, written, or electronic notice of Steering Committee Meetings unless all members of the Steering Committee accept shorter notice.  The Steering Committee shall give notice of its meeting schedule to Chapter members.  Meeting minutes shall be recorded and accessible to the membership.  
 
 Steering Committee Meetings may be held electronically by any means acceptable to all the members of the Steering Committee.  
 
@@ -207,7 +210,7 @@ The Steering Committee may go into executive session by simple majority vote in 
 
 Section 4\.  Quorum.  
 
-	A quorum of a simple majority, including at least 3(3) of the five (5) officers, is required for the transaction of Steering Committee business.  
+A quorum of a simple majority, including at least 3(3) of the five (5) officers, is required for the transaction of Steering Committee business.  
 
 Section 5\.  Rules.  
 
@@ -251,7 +254,7 @@ Young Democratic Socialists of America (YDSA) chapters within the geographic are
 
 Section 2\. YDSA Liaison.
 
-	Each official YDSA Chapter that exists in the Chapter’s territory may nominate one (1) YDSA Liaison that shall coordinate organizing, recruitment, and other efforts with the Flint Hills Chapter.
+Each official YDSA Chapter that exists in the Chapter’s territory may nominate one (1) YDSA Liaison that shall coordinate organizing, recruitment, and other efforts with the Flint Hills Chapter.
 
 **ARTICLE IX.  Committees.**  
 
@@ -301,17 +304,17 @@ Flint Hills DSA will use the same method of voting outlined in Article V, Sectio
 
 **ARTICLE XII. Grievance Procedure.**
 
-	The Chapter will follow the [Harassment Policy of National DSA](https://www.dsausa.org/about-us/harassment-policy-resolution-33/). 
+The Chapter will follow the [Harassment Policy of National DSA](https://www.dsausa.org/about-us/harassment-policy-resolution-33/). 
 
 **ARTICLE XIII. Prohibited Activity**.  
 
-	Flint Hills DSA will not engage in activity prohibited by the IRS guidelines established for 501(c)(4) organizations or similar rules established by the state of Kansas.  Nor will the Chapter engage in any activity prohibited by resolutions adopted by DSA’s National Convention or DSA’s National Political Committee.    
+Flint Hills DSA will not engage in activity prohibited by the IRS guidelines established for 501(c)(4) organizations or similar rules established by the state of Kansas.  Nor will the Chapter engage in any activity prohibited by resolutions adopted by DSA’s National Convention or DSA’s National Political Committee.    
    
 **ARTICLE XIV.  Amendments.**  
 
 Proposed amendments to these bylaws must be made by written resolution, endorsed by either five (5) members or ten (10) percent of the membership–whichever is greater–in good standing of the Chapter, and submitted to the Steering Committee at least twenty-one (21) days in advance of a Chapter Meeting as defined in Article IV.  The Steering Committee is required to provide the Chapter membership with at least ten (10) days physical or electronic notice of the proposed amendments.  The Chapter Meeting may adopt amendments to these bylaws proposed under this article by majority vote.  
 
-	No amendment to these bylaws may be in conflict with the National DSA Constitution and Bylaws.  The Chapter will provide the amended bylaws to the DSA national office.  
+No amendment to these bylaws may be in conflict with the National DSA Constitution and Bylaws.  The Chapter will provide the amended bylaws to the DSA national office.  
 
 **ARTICLE XV.  Chapter Dissolution.**  
 
