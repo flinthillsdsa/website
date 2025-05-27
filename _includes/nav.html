@@ -51,12 +51,33 @@
           <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
             >{{ link.title }}</a
           >
-          {%- elsif link.section -%}
-          <a
-            class="nav-link js-scroll-trigger"
-            href="{{ site.baseurl }}/#{{ link.section }}"
-            >{{ link.title }}</a
-          >
+        {%- elsif link.section -%}
+  {% if link.section == "resources" %}
+    {% if page.collection == "resources" %}
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button"
+           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{ link.title }}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
+          {% for res in site.resources %}
+            <a class="dropdown-item" href="{{ res.url | relative_url }}">
+              {{ res.title }}
+            </a>
+          {% endfor %}
+        </div>
+      </li>
+    {% else %}
+      <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#resources">
+        {{ link.title }}
+      </a>
+    {% endif %}
+  {% else %}
+    <a class="nav-link js-scroll-trigger"
+       href="{{ site.baseurl }}/#{{ link.section }}">
+      {{ link.title }}
+    </a>
+  {% endif %}
           {%- else -%}
           <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
           {%- endif -%}
