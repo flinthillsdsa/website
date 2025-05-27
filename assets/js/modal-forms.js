@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   // list all the form IDs in your modals
-  [ "contactUsForm", "discordForm" ].forEach(function(id) {
+  ["contactUsForm", "discordForm", "mailingListForm"].forEach(function(id) {
     var form = document.getElementById(id);
     if (!form) return;
 
