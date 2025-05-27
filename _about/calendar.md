@@ -1,8 +1,7 @@
 ---
 title: Calendar of Events
 #subtitle: 
-image: https://www.fhdsa.org/assets/img/about/calendar.png
-alt: Calendar icon
+
 
 caption:
   title: Calendar of Events
