@@ -148,7 +148,7 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Derron"
+      - name: "Derron (they/he)"
         role: "Membership Coordinator"
         image: assets/img/team/derron.png
         social:
