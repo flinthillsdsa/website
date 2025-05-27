@@ -15,7 +15,6 @@
               <div class="modal-body">
                 <h2 class="text-uppercase">{{ project.title }}</h2>
                 <p class="item-intro text-muted">{{ project.subtitle }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 300px; height: auto;" />
                 <p>{{ project.content }}</p>
                  <button
                 class="btn btn-primary"
@@ -46,7 +45,6 @@
               <div class="modal-body">
                 <h2 class="text-uppercase">{{ project.title }}</h2>
                 <p class="item-intro text-muted">{{ project.subtitle }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 300px; height: auto;" />
                 <p>{{ project.content }}</p>
                  <button
                 class="btn btn-primary"
@@ -82,7 +80,6 @@
               <div class="modal-body">
                 <h2 class="text-uppercase">{{ item.title }}</h2>
                 <p class="item-intro text-muted">{{ item.caption.subtitle }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ item.image }}" alt="{{ item.alt | default: item.title }}">
                 <p>{{ item.content | markdownify }}</p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
