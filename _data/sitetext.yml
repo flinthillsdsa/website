@@ -152,8 +152,8 @@ en: &DEFAULT_EN
         role: "Membership Coordinator"
         image: assets/img/team/derron.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
+          - url: https://www.x.com
+            icon: fab fa-x
           - url: https://facebook.com
             icon: fab fa-facebook-f
           - url: https://linkedin.com
