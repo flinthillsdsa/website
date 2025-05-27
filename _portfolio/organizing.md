@@ -1,4 +1,4 @@
-
+---
 title: Organizing
 subtitle: Flint Hills Chapter Priorities
 image: https://www.fhdsa.org/assets/img/about/organizing.png
@@ -8,6 +8,7 @@ caption:
   title: Organizing
   #subtitle: Chapter Priorities
   thumbnail: https://www.fhdsa.org/assets/img/about/organizing.png
+---
   
 ***
 
