@@ -54,12 +54,9 @@ en: &DEFAULT_EN
         role: "Membership Coordinator"
         image: assets/img/team/derron.png
         bio:  |
-          **Derron** is a vegan Marxist-Leninist socialist from Ohio. They are 
-          currently pursuing a PhD looking at social epistemology of adult learning. 
-          In their free time, you can find Derron at their plot at the Manhattan 
-          Community Gardens, volunteering, crafting, learning languages, writing, 
-          and escaping the realities of capitalism through reading fantasy
-          fiction.
+          **Derron** is a vegan Marxist-Leninist socialist from Ohio. They are currently pursuing a PhD in adult learning and leadership. 
+          In their free time, you can find Derron at their plot at the Manhattan Community Gardens, volunteering, crafting, learning languages, 
+          writing, and escaping the realities of capitalism through reading fantasy fiction.
         social:
           - url: https://bsky.app/profile/derron.blue
             icon: fab fa-bluesky
