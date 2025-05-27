@@ -230,3 +230,171 @@
     </div>
   </div>
 </div>
+
+<!-- Contact Us Modal -->
+<div class="portfolio-modal modal fade" id="modal-contact" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr"><div class="rl"></div></div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Contact Us</h2>
+              <!-- reuse your existing contact form here -->
+              <form id="contactFormModal" action="https://formspree.io/{{ site.formspree_form_path | default: site.email }}" method="POST" novalidate>
+                <!-- name/email/phone/message fields as before -->
+                <!-- ... copy the inputs from your old contact.html form ... -->
+                <button class="btn btn-primary" type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Join our Discord Modal -->
+<div class="portfolio-modal modal fade" id="modal-discord" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr"><div class="rl"></div></div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Join Our Discord</h2>
+              <form
+                id="discordForm"
+                action="https://formspree.io/{{ site.formspree_form_path | default: site.email }}"
+                method="POST"
+                novalidate>
+                
+                <!-- Are you a current DSA member? -->
+                <div class="form-group">
+                  <label>Are you already a member of the DSA?</label>
+                  <select name="dsa_member" class="form-control" required
+                          data-validation-required-message="Please select an option.">
+                    <option value="" disabled selected>Choose…</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <p class="help-block text-danger"></p>
+                </div>
+
+                <!-- Reason for joining -->
+                <div class="form-group">
+                  <label>Why do you want to join our Discord?</label>
+                  <textarea
+                    name="reason"
+                    class="form-control"
+                    rows="3"
+                    required
+                    data-validation-required-message="Please tell us why you’d like to join."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+
+                <!-- Name -->
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    placeholder="Name*"
+                    required
+                    data-validation-required-message="Please enter your name.">
+                  <p class="help-block text-danger"></p>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="_replyto"
+                    class="form-control"
+                    placeholder="Email*"
+                    required
+                    data-validation-required-message="Please enter a valid email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+
+                <!-- Phone (optional) -->
+                <div class="form-group">
+                  <input
+                    type="tel"
+                    name="phone"
+                    class="form-control"
+                    placeholder="Phone (optional)">
+                </div>
+
+                <!-- Flint Hills resident? -->
+                <div class="form-group">
+                  <label>Do you live in the Flint Hills area?</label><br>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flinthills_resident" id="fhYes" value="Yes" required>
+                    <label class="form-check-label" for="fhYes">Yes</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flinthills_resident" id="fhNo" value="No">
+                    <label class="form-check-label" for="fhNo">No</label>
+                  </div>
+                  <p class="help-block text-danger"></p>
+                </div>
+
+                <!-- Hidden metadata -->
+                <input type="hidden" name="_subject" value="Discord Invite Request">
+                <input type="text" name="_gotcha" style="display:none">
+                <input type="hidden" name="_next" value="#" />
+
+                <!-- Submit button -->
+                <div class="text-center">
+                  <button class="btn btn-primary btn-xl text-uppercase" type="submit">
+                    Request Invite
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Become a Member Modal -->
+<div class="portfolio-modal modal fade" id="modal-membership" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr"><div class="rl"></div></div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Become a Member</h2>
+              <p>We’d love to have you! To join the DSA Flint Hills Chapter:</p>
+              <ol class="text-left">
+                <li>Visit our national site at <a href="https://www.dsausa.org/join" target="_blank">dsausa.org/join</a>.</li>
+                <li>Select “Flint Hills Chapter” in the dropdown.</li>
+                <li>Fill out the membership form and submit payment.</li>
+              </ol>
+              <p>If you have any questions, feel free to reach out through the “Contact Us” button!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
