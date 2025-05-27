@@ -1,8 +1,6 @@
 ---
-title: Organizing
-subtitle: Flint Hills Chapter Priorities
-image: https://www.fhdsa.org/assets/img/about/organizing.png
-alt: People and a gear icon
+#title: Organizing
+#subtitle: Flint Hills Chapter Priorities
 
 caption:
   title: Organizing
