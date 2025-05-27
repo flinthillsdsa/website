@@ -1,0 +1,6 @@
+---
+layout: resource
+title: "Committees"
+description: "Information, documentation, and updates from committees."
+permalink: /resources/chapter-documentation/
+---
