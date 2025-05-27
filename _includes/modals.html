@@ -151,9 +151,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Chapter By-Laws</h5>
-        <button type="button" class="close" data-dismiss="modal">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
       <div class="modal-body text-left">
         {{ site.data.documents.bylaws | markdownify }}
@@ -168,12 +166,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Upcoming Events</h5>
-        <button type="button" class="close" data-dismiss="modal">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
       <div class="modal-body text-center p-0">
-        <iframe src="https://calendar.google.com/calendar/embed?src=qv9emdlk7u8ghn6p5d3rlm1peapn1t9j@import.calendar.google.com&ctz=America/Chicago" style="border:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+        <iframe
+          src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=America/Chicago"
+          style="border:0"
+          width="100%" height="600" frameborder="0" scrolling="no">
+        </iframe>
       </div>
     </div>
   </div>
@@ -185,9 +185,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Organizing</h5>
-        <button type="button" class="close" data-dismiss="modal">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
       <div class="modal-body">
         <h6>Housing Justice</h6>
