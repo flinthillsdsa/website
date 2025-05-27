@@ -32,9 +32,8 @@ analytics:
 
 collections:
   portfolio:
-    output: true
   about:
-    output: true
+   
     
 markdown: kramdown
 
