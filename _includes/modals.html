@@ -17,6 +17,15 @@
                 <p class="item-intro text-muted">{{ project.subtitle }}</p>
                 <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 300px; height: auto;" />
                 <p>{{ project.content }}</p>
+                 <button
+                class="btn btn-primary"
+                data-dismiss="modal"
+                type="button"
+                >
+                <i class="fas fa-times"></i>
+                {{ site.data.sitetext[site.locale].portfolio.closebutton |
+                default: "Close Window" }}
+              </button>
               </div>
             </div>
           </div>
@@ -39,6 +48,15 @@
                 <p class="item-intro text-muted">{{ project.subtitle }}</p>
                 <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}" style="max-width: 300px; height: auto;" />
                 <p>{{ project.content }}</p>
+                 <button
+                class="btn btn-primary"
+                data-dismiss="modal"
+                type="button"
+                >
+                <i class="fas fa-times"></i>
+                {{ site.data.sitetext[site.locale].portfolio.closebutton |
+                default: "Close Window" }}
+              </button>
                </div>
             </div>
           </div>
