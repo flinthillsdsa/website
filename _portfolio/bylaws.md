@@ -12,7 +12,6 @@ alt: image alt text
 
 ---
 
-<div style="text-align:left;">
 
 **ARTICLE I.  Name and Territory.**  
 
@@ -320,4 +319,3 @@ A proposal to dissolve the Chapter must be made by written resolution, endorsed 
 
 Upon dissolution of the Chapter, any residual assets shall become property of the national organization of Democratic Socialists of America.
 
-</div>
