@@ -4,7 +4,7 @@
 
 
 caption:
-  title: Calendar of Events
+  title: Upcoming Events
   #subtitle: 
   thumbnail: https://www.fhdsa.org/assets/img/about/calendar.png
 ---
