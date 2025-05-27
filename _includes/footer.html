@@ -14,7 +14,9 @@
           {% for link in site.data.sitetext[site.locale].footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
-            <a href="{{ link.url }}">
+            <a href="{{ link.url }}"  
+				       target="_blank"
+   				     rel="noopener noreferrer">
               {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
             </a>
             {% endif %}
@@ -47,7 +49,9 @@
           {% for link in site.data.sitetext.footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
-            <a href="{{ link.url }}">
+            <a href="{{ link.url }}"  
+				       target="_blank"
+   				     rel="noopener noreferrer">
               {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
             </a>
             {% endif %}
