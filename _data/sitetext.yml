@@ -88,7 +88,7 @@ en: &DEFAULT_EN
       - url: https://facebook.com/flinthillsdsa
         icon: "fab fa-facebook-f"
       - url: https://instagram.com/flinthillsdsa
-        icon: "fab fa-linkedin-in"
+        icon: "fab fa-instagram"
       - url: https://github.com/flinthillsdsa
         icon: "fab fa-github"
       - url: https://bsky.app/profile/flinthillsdsa.bsky.social
