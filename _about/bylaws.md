@@ -8,9 +8,9 @@ caption: #what displays in the portfolio grid:
 #title: By-laws of the Flint Hills Chapter of Democratic Socialists of America 
 #subtitle: Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd.  .
 ---
-## By-laws of the Flint Hills Chapter of Democratic Socialists of America 
+### By-laws of the Flint Hills Chapter of Democratic Socialists of America 
 
-### Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd
+#### Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd
 
 **ARTICLE I.  Name and Territory.**  
 
