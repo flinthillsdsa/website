@@ -55,11 +55,11 @@ en: &DEFAULT_EN
         image: assets/img/team/derron.png
         social:
           - url: https://bsky.app/profile/derron.blue
-            icon: fa-bluesky
+            icon: fab fa-bluesky
           - url: https://www.instagram.com/derronstephen
-            icon: fa-instagram
+            icon: fab fa-instagram
           - url: https://www.linkedin.com/in/derronborders/
-            icon: fa-linkedin
+            icon: fab fa-linkedin
 
   contact:
     title: "Contact Us"
