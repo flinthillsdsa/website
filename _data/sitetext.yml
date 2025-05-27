@@ -17,10 +17,11 @@ en: &DEFAULT_EN
     buttonlink: "#about"
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "About"
+    text: "The Flint Hills Chapter of Democratic Socialists of America seeks to facilitate the transition to a truly democratic and socialist society, one in which the means and resources of production are democratically and socially controlled.  The Chapter is organized primarily to promote social welfare.  
+"
     section: portfolio
-    closebutton: "Close Project"
+    #closebutton: "Close Project"
 
   about:
     title: "About"
