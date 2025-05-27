@@ -456,3 +456,78 @@
     </div>
   </div>
 </div>
+
+<!-- Join our Mailing List Modal -->
+<div class="portfolio-modal modal fade" id="modal-mailing" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal"><div class="lr"><div class="rl"></div></div></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Join Our Mailing List</h2>
+              <form
+                id="mailingListForm"
+                action="https://formspree.io/{{ site.formspree_form_path | default: site.email }}"
+                method="POST"
+                novalidate>
+                
+                <input type="hidden" name="_format" value="json">
+                
+                <!-- First Name -->
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="first_name"
+                    class="form-control"
+                    placeholder="First Name*"
+                    required
+                    data-validation-required-message="Please enter your first name.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <!-- Last Name -->
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name="last_name"
+                    class="form-control"
+                    placeholder="Last Name*"
+                    required
+                    data-validation-required-message="Please enter your last name.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <!-- Email -->
+                <div class="form-group">
+                  <input
+                    type="email"
+                    name="_replyto"
+                    class="form-control"
+                    placeholder="Email*"
+                    required
+                    data-validation-required-message="Please enter a valid email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <!-- Hidden metadata -->
+                <input type="hidden" name="_subject" value="Mailing List Sign-Up">
+                <input type="text" name="_gotcha" style="display:none">
+                <input type="hidden" name="_format" value="json">
+                
+                <!-- Submit -->
+                <div class="text-center">
+                  <button class="btn btn-primary btn-xl text-uppercase" type="submit">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
