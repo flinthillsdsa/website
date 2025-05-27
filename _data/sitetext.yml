@@ -54,12 +54,12 @@ en: &DEFAULT_EN
         role: "Membership Coordinator"
         image: assets/img/team/derron.png
         social:
-          - url: https://www.bsky.app/profile/derron.blue
-            icon: fab fa-bluesky
+          - url: https://bsky.app/profile/derron.blue
+            icon: fa-bluesky
           - url: https://www.instagram.com/derronstephen
-            icon: fab fa-instagram
+            icon: fa-instagram
           - url: https://www.linkedin.com/in/derronborders/
-            icon: fab fa-linkedin
+            icon: fa-linkedin
 
   contact:
     title: "Contact Us"
