@@ -16,7 +16,7 @@ en: &DEFAULT_EN
     - title: "Leadership"
       section: team
     - title: "Resources"
-      section: resrouces
+      section: resources
     - title: "Contact"
       section: contact
 
