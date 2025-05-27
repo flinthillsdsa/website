@@ -1,4 +1,4 @@
----
+
 title: Organizing
 subtitle: Flint Hills Chapter Priorities
 image: https://www.fhdsa.org/assets/img/about/organizing.png
@@ -8,8 +8,12 @@ caption:
   title: Organizing
   #subtitle: Chapter Priorities
   thumbnail: https://www.fhdsa.org/assets/img/about/organizing.png
----
+  
+***
+
 ###### Each year, the Chapter takes a vote on the most pressing matters for which we would like to put our collective engergy toward organizing and mobilizing. Given our growing numbers, we are prioritizing the following:
+
+***
 
 ## Establishing a Tenet Union
 
