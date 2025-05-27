@@ -17,8 +17,6 @@ en: &DEFAULT_EN
       section: team
     - title: "Resources"
       section: portfolio
-    - title: "History"
-      section: timeline
     - title: "Contact"
       section: contact
  
