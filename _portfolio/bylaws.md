@@ -12,9 +12,7 @@ alt: image alt text
 
 ---
 
-Bylaws of the Flint Hills Chapter   
-of Democratic Socialists of America  
-Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd.  
+<div style="text-align:left;">
 
 **ARTICLE I.  Name and Territory.**  
 
@@ -321,3 +319,5 @@ No amendment to these bylaws may be in conflict with the National DSA Constituti
 A proposal to dissolve the Chapter must be made by written resolution, endorsed by five (5) members in good standing of the Chapter, and submitted to the Steering Committee at least twenty-one (21) days in advance of a Chapter Meeting as defined in Article IV.  The Steering Committee is required to provide the Chapter membership with at least ten (10) days physical or electronic notice of this resolution.  The Chapter Meeting may adopt a resolution to dissolve the Chapter under this article by a two-thirds (⅔) vote.  
 
 Upon dissolution of the Chapter, any residual assets shall become property of the national organization of Democratic Socialists of America.
+
+</div>
