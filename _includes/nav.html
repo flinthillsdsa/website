@@ -1,91 +1,73 @@
-<!-- Navigation -->
-<nav
-  class="navbar navbar-expand-lg navbar-dark fixed-top"
-  id="mainNav"
-  style="background-color: #212529"
->
+<!-- _includes/nav.html -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #212529">
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
       {%- if site.logo -%}
-      <img
-        height="{{ site.logo.height | default: 52 }}"
-        src="{{ site.logo.path }}"
-      />
-      {%- else -%} {{ site.title }} {%- endif -%}
+        <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}" />
+      {%- else -%}
+        {{ site.title }}
+      {%- endif -%}
     </a>
-    <button
-      class="navbar-toggler navbar-toggler-right"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarResponsive"
-      aria-controls="navbarResponsive"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      Menu<i class="fas fa-bars"></i>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+      Menu <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
-      {% if site.locale and site.locale != "" and site.locale != nil %}
-        {%- for link in site.data.navigation[site.locale].nav -%}
-        <li class="nav-item">
+
+        {%- if site.locale and site.locale != "" and site.locale != nil -%}
+          {%- assign nav_items = site.data.navigation[site.locale].nav -%}
+        {%- else -%}
+          {%- assign nav_items = site.data.navigation.nav -%}
+        {%- endif -%}
+
+        {%- for link in nav_items -%}
           {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
-            >{{ link.title }}</a
-          >
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{{ link.url | relative_url }}">
+                {{ link.title }}
+              </a>
+            </li>
+
+          {%- elsif link.section == "resources" -%}
+            {%- if page.collection == "resources" -%}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  {{ link.title }}
+                </a>
+                <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                  {%- for res in site.resources -%}
+                    <a class="dropdown-item" href="{{ res.url | relative_url }}">
+                      {{ res.title }}
+                    </a>
+                  {%- endfor -%}
+                </div>
+              </li>
+            {%- else -%}
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#resources">
+                  {{ link.title }}
+                </a>
+              </li>
+            {%- endif -%}
+
           {%- elsif link.section -%}
-          <a
-            class="nav-link js-scroll-trigger"
-            href="{{ site.baseurl }}/#{{ link.section }}"
-            >{{ link.title }}</a
-          >
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">
+                {{ link.title }}
+              </a>
+            </li>
+
           {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+            </li>
           {%- endif -%}
-        </li>
         {%- endfor -%}
-      {% else %}
-        {%- for link in site.data.navigation.nav -%}
-        <li class="nav-item">
-          {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
-            >{{ link.title }}</a
-          >
-        {%- elsif link.section -%}
-  {% if link.section == "resources" %}
-    {% if page.collection == "resources" %}
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button"
-           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{ link.title }}
-        </a>
-        <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
-          {% for res in site.resources %}
-            <a class="dropdown-item" href="{{ res.url | relative_url }}">
-              {{ res.title }}
-            </a>
-          {% endfor %}
-        </div>
-      </li>
-    {% else %}
-      <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#resources">
-        {{ link.title }}
-      </a>
-    {% endif %}
-  {% else %}
-    <a class="nav-link js-scroll-trigger"
-       href="{{ site.baseurl }}/#{{ link.section }}">
-      {{ link.title }}
-    </a>
-  {% endif %}
-          {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      {% endif %}
+
       </ul>
     </div>
   </div>
 </nav>
-<!-- End Navigation -->
