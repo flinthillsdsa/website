@@ -93,14 +93,14 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Steering Committee"
+    text: "The Chapter is led by a group of local volunteers living in and around Manhattah, KS."
+    #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Noah (he/they)"
+        role: "Co-chair"
+        image: assets/img/team/placeholder.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -108,9 +108,9 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+      - name: "Peter (he/him)"
+        role: "Co-chair"
+        image: assets/img/team/placeholder.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -118,9 +118,39 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+      - name: "Steve (he/him)"
+        role: "Treasurer"
+        image: assets/img/team/placeholder.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+        - name: "Beccah (they/them)"
+        role: "Co-secretary"
+        image: assets/img/team/placeholder.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+        - name: "Al (they/them)"
+        role: "Co-secretary"
+        image: assets/img/team/placeholder.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+        - name: "Derron"
+        role: "Membership Coordinator"
+        image: assets/img/team/derron.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
