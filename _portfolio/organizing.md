@@ -12,7 +12,7 @@ caption:
   
 ***
 
-###### Each year, the Chapter takes a vote on the most pressing matters for which we would like to put our collective engergy toward organizing and mobilizing. Given our growing numbers, we are prioritizing the following:
+###### Each year, our Chapter votes on the most urgent issues we believe deserve our collective energy and focus. As our membership continues to grow, we are prioritizing the following areas:
 
 ***
 
