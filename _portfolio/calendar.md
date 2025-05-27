@@ -1,6 +1,6 @@
 ---
 title: Calendar of Events
-subtitle: Here’s our public calendar of upcoming meetings, actions, and events:
+subtitle: Here’s our public calendar of upcoming meetings, actions, and events
 image: https://www.fhdsa.org/assets/img/about/calendar.png
 alt: Calendar icon
 
