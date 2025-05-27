@@ -1,0 +1,13 @@
+about_items:
+  - id: bylaws
+    title: "By-Laws"
+    thumbnail: "/assets/img/icons/constitution.png"
+    modal_target: "#modal-bylaws"
+  - id: events
+    title: "Upcoming Events"
+    thumbnail: "/assets/img/icons/calendar.png"
+    modal_target: "#modal-events"
+  - id: organizing
+    title: "Organizing"
+    thumbnail: "/assets/img/icons/organizing.png"
+    modal_target: "#modal-organizing"
