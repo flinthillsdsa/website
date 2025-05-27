@@ -5,10 +5,12 @@ caption: #what displays in the portfolio grid:
   thumbnail: https://www.fhdsa.org/assets/img/about/gavel.png
   
 #what displays when the item is clicked:
-title: By-laws of the Flint Hills Chapter of Democratic Socialists of America 
-subtitle: Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd.  .
+#title: By-laws of the Flint Hills Chapter of Democratic Socialists of America 
+#subtitle: Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd.  .
 ---
+# By-laws of the Flint Hills Chapter of Democratic Socialists of America 
 
+## Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd
 
 **ARTICLE I.  Name and Territory.**  
 
