@@ -1,3 +1,4 @@
+<!-- _includes/about.html -->
 <!-- About -->
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
@@ -11,6 +12,12 @@
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
         <div class="large text-muted">{{ site.data.sitetext[site.locale].about.body | markdownify }}</div>
+        <!-- Trigger buttons for modals -->
+        <div class="mt-4">
+          <button class="btn btn-primary mx-2" data-toggle="modal" data-target="#modal-bylaws">By-Laws</button>
+          <button class="btn btn-primary mx-2" data-toggle="modal" data-target="#modal-events">Upcoming Events</button>
+          <button class="btn btn-primary mx-2" data-toggle="modal" data-target="#modal-foci">Committees</button>
+        </div>
       </div>
     </div>
   </div>
@@ -27,6 +34,12 @@
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
         <div class="large text-muted">{{ site.data.sitetext.about.body | markdownify }}</div>
+        <!-- Trigger buttons for modals -->
+        <div class="mt-4">
+          <button class="btn btn-primary mx-2" data-toggle="modal" data-target="#modal-bylaws">By-Laws</button>
+          <button class="btn btn-primary mx-2" data-toggle="modal" data-target="#modal-events">Upcoming Events</button>
+          <button class="btn btn-primary mx-2" data-toggle="modal" data-target="#modal-foci">Committees</button>
+        </div>
       </div>
     </div>
   </div>
