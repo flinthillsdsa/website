@@ -35,7 +35,7 @@ collections:
     output: true
   about:
     output: true
-  resrouces:
+  resources:
     output: true
     
 markdown: kramdown
