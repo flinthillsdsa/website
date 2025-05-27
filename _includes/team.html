@@ -15,6 +15,8 @@
 		<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 		<h4>{{ person.name }}</h4>
 		<p class="text-muted">{{ person.role }}</p>
+		<!-- Bio link to open modal -->
+		<p><a href="#team-{{ forloop.index }}" data-toggle="modal">Bio</a></p>
 		<ul class="list-inline social-buttons">
 		{% for network in person.social %}
 		  <li class="list-inline-item">
@@ -51,6 +53,8 @@
 			<img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
 			<h4>{{ person.name }}</h4>
 			<p class="text-muted">{{ person.role }}</p>
+			<!-- Bio link to open modal -->
+			<p><a href="#team-{{ forloop.index }}" data-toggle="modal">Bio</a></p>
 			<ul class="list-inline social-buttons">
 			{% for network in person.social %}
 			  <li class="list-inline-item">
