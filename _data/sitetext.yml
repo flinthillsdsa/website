@@ -128,7 +128,7 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-        - name: "Beccah (they/them)"
+      - name: "Beccah (they/them)"
         role: "Co-secretary"
         image: assets/img/team/placeholder.png
         social:
@@ -138,7 +138,7 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-        - name: "Al (they/them)"
+      - name: "Al (they/them)"
         role: "Co-secretary"
         image: assets/img/team/placeholder.png
         social:
@@ -148,7 +148,7 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-        - name: "Derron"
+      - name: "Derron"
         role: "Membership Coordinator"
         image: assets/img/team/derron.png
         social:
