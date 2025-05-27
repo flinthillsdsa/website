@@ -1,5 +1,5 @@
 ---
-title: Calendar of Events
+#title: Calendar of Events
 #subtitle: 
 
 
