@@ -12,7 +12,6 @@ permalink: /resources/chapter-documentation/chapter-meetings/files/2025-05-08-ch
 
 ***
 
- 
 **Date:** May 8, 2025
 **Time:** 6:00 PM
 **Location:** City Park & Discord
