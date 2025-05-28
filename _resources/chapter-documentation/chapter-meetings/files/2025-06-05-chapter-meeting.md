@@ -32,8 +32,6 @@ permalink: /resources/chapter-documentation/chapter-meetings/files/2025-06-05-ch
 #### New Business
 
 
-
-
 #### Old Business
 
 
