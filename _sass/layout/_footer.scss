@@ -6,16 +6,11 @@
   text-align: center;
   span.copyright {
     font-size: 90%;
+    color: #ffffff; 
     line-height: 40px;
     text-transform: none;
     @include heading-font;
   }
-
-  span.copyright,
-  ul.quicklinks {
-    color: #ffffff;            // override any inherited grey
-  }
-}
   ul.quicklinks {
     font-size: 90%;
     line-height: 40px;
