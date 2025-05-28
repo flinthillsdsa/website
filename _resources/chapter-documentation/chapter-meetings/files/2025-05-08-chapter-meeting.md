@@ -48,8 +48,6 @@ permalink: /resources/chapter-documentation/chapter-meetings/files/2025-05-08-ch
   - Discussed potential for other people hosting future socials
   - Request for a potential movie screening as an option for the next social
 - **REDACTED**
-  - Votes Taken
-    - Begin the **REDACTED**
 - Treasury - New Bank Account
   - Flint Hills DSA now has a bank account and is an official, incorporated chapter
   - Shortly the Flint Hills DSA will begin receiving a portion of the member dues in the account
