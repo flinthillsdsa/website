@@ -10,6 +10,7 @@ title: 2025-05-08 Chapter Meeting Minutes
 
 ***
 
+
 **Date:** May 8, 2025
 **Time:** 6:00 PM
 **Location:** City Park & Discord
