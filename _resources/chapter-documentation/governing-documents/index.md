@@ -3,7 +3,6 @@ layout: resource
 section: resources
 title: Governing Documents
 hide_title: true
-permalink: /resources/chapter-documentation/governing-documents/
 ---
 
 # Governing Documents

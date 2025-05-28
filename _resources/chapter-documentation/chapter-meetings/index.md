@@ -3,7 +3,6 @@ layout: resource
 section: resources
 title: Chapter Meetings
 hide_title: true
-permalink: /resources/chapter-documentation/chapter-meetings/
 ---
 
 # Chapter Meetings

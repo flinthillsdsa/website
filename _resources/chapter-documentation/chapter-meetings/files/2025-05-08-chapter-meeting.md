@@ -3,13 +3,12 @@ layout: resource
 section: resources
 title: 2025-05-08 Chapter Meeting Minutes
 hide_title: true
-permalink: /resources/chapter-documentation/chapter-meetings/files/2025-05-08-chapter-meeting/
 ---
 
 # 2025-05-08 Chapter Meeting Minutes
 
 ## Flint Hills DSA
-
+ 
 ***
 
 **Date:** May 8, 2025
@@ -17,7 +16,7 @@ permalink: /resources/chapter-documentation/chapter-meetings/files/2025-05-08-ch
 **Location:** City Park & Discord
 
 ***
-
+ 
 ### Attendees
 
 #### Present:
