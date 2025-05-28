@@ -71,3 +71,19 @@
     }
   }
 }
+
+
+/* -----------------------------------------------
+   Keep the nav compact on pages flagged "resources"
+   ----------------------------------------------- */
+body[data-section="resources"] #mainNav {
+  /* match the .navbar-shrink state */
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: $gray-900 !important;
+
+  .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
