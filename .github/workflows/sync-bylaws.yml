@@ -1,4 +1,4 @@
-# 1) Download the file ----------------------------------------------------------------
+
 - name: Download bylaws
   run: |
     mkdir -p _documents/chapter-documentation
