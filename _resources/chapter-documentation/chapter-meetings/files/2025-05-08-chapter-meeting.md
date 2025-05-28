@@ -3,7 +3,7 @@ layout: resource
 section: resources
 title: 2025-05-08 Chapter Meeting Minutes
 hide_title: true
-permalink: /resources/chapter-documentation/chapter-meetings/files/2025-05-08-chapter-meeting.html
+permalink: /resources/chapter-documentation/chapter-meetings/files/2025-05-08-chapter-meeting/
 ---
 
 # 2025-05-08 Chapter Meeting Minutes
