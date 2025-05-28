@@ -10,6 +10,7 @@
     border: 0;
     background-color: $primary;
     @include heading-font;
+    z-index: 1050;
   }
   .navbar-brand {
     color: $primary;
