@@ -37,6 +37,9 @@ collections:
     output: true
   resources:
     output: true
+  documents:
+    output: true            
+    permalink: /docs/
     
 markdown: kramdown
 
