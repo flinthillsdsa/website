@@ -3,11 +3,11 @@
 # ----------------------------------------
 remote_theme: raviriley/agency-jekyll-theme
 
-url      : "https://www.fhdsa.org"
-baseurl  : ""                 # leave empty for root-domain site
+url       : "https://www.fhdsa.org"
+baseurl   : ""                 # leave empty for root‐domain site
 
 title       : "Flint Hills DSA"
-email       : "chapter@fhdsa.org"   # contact-form target
+email       : "chapter@fhdsa.org"
 description : "Official website for the Flint Hills Chapter of the Democratic Socialists of America"
 author      : "Derron Borders"
 
@@ -31,14 +31,14 @@ collections:
   resources:
     output: true
     permalink: /resources/:path/
- 
+
 # ----------------------------------------
-# Default front-matter for documents
+# Default front‐matter for resources
 # ----------------------------------------
 defaults:
   - scope:
-      path: ""               # match any file
-      type: documents        # only the documents collection
+      path: ""               # every file in the resources collection
+      type: resources
     values:
       layout : resource
       section: resources
@@ -54,7 +54,7 @@ markdown: kramdown
 formspree_form_path: "f/xyzwrkba"
 
 # ----------------------------------------
-# Plugins (GitHub Pages-allowed only)
+# Plugins (GitHub Pages–allowed only)
 # ----------------------------------------
 plugins:
   - jekyll-remote-theme
