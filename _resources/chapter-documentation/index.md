@@ -5,8 +5,9 @@ section: resources
 permalink: /resources/chapter-documentation/
 ---
 # Chapter Documentation  
-</br>
-</br>
+
+<br>
+<br>
 <!-- Grid of sub-sections -->
 <div class="row justify-content-center align-items-start">
 
