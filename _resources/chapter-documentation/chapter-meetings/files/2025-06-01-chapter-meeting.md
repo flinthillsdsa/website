@@ -11,7 +11,7 @@ permalink: /resources/chapter-documentation/chapter-meetings/files/2025-06-01-ch
 ## Flint Hills DSA
 
 ***
-
+ 
 
 **Date:** June 5, 2025
 **Time:** TBD
