@@ -1,34 +1,31 @@
-name: Sync Chapter By-Laws
+name: Sync Governing By-laws
 
 on:
-  workflow_dispatch:          # run manually
+  workflow_dispatch:            # you can run it manually from “Actions”
   schedule:
-    - cron:  '0 4 * * 1'      # every Monday 04:00 UTC
-
-# allow default GITHUB_TOKEN to push
-permissions:
-  contents: write
+    - cron: '0 3 * * 1'         # every Monday 03:00 UTC  (adjust as needed)
+  push:
+    paths:
+      - .github/workflows/sync-governing-doc.yml   # run if you edit the workflow
+      - _documents/**                               # or if you change docs manually
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-
-      # 1) Checkout your website repo
       - uses: actions/checkout@v4
 
-      # 2) Download the by-laws Markdown from the external repo
-      - name: Download latest by-laws
+      - name: Get governing-documents repo
         run: |
+          git clone --depth=1 https://github.com/flinthillsdsa/governing-documents tmpgov
           mkdir -p _documents/chapter-documentation
-          curl -sL \
-            https://raw.githubusercontent.com/flinthillsdsa/governing-documents/main/bylaws/2025-05-25-fhdsa-bylaws.md \
-            -o _documents/chapter-documentation/bylaws.md
+          cp tmpgov/bylaws/2025-05-25-fhdsa-bylaws.md \
+             _documents/chapter-documentation/bylaws.md
 
-      # 3) Add default front-matter if the MD has none
-      - name: Ensure front-matter
+      # Ensure the file has minimal front-matter so Jekyll renders it
+      - name: Add default front-matter if missing
         run: |
-          FILE=_documents/chapter-documentation/bylaws.md
+          FILE="_documents/chapter-documentation/bylaws.md"
           if ! grep -q '^---' "$FILE"; then
             echo '---'                                >  tmpfile
             echo 'layout: resource'                  >> tmpfile
@@ -39,12 +36,9 @@ jobs:
             mv tmpfile "$FILE"
           fi
 
-      # 4) Commit & push _only_ if the file changed
-      - name: Commit and push if updated
+      - name: Commit & push if changed
         run: |
           git config user.name  "github-actions"
           git config user.email "actions@github.com"
           git add _documents/chapter-documentation/bylaws.md
-          git diff --cached --quiet || { \
-            git commit -m "Update chapter by-laws"; \
-            git push; }
+          git diff --quiet --cached || git commit -m "Sync governing by-laws" && git push
