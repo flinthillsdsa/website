@@ -1,11 +1,12 @@
 ---
 layout: resource
 title: "Bylaws of the Flint Hills Chapter of Democratic Socialists of America"
+
 section: resources
 ---
 
-Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd
-----
+## Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd
+***
 
 ## ARTICLE I.   
 ***
@@ -19,8 +20,8 @@ The name of the Chapter will be the Flint Hills Chapter of Democratic Socialists
 
 The Chapter shall conduct activities in the Flint Hills and Northeastern Kansas area within the territory defined by the charter granted by the national Democratic Socialists of America to the Flint Hills.  
 
-ARTICLE II.  
-----
+## ARTICLE II.  
+***
 
 ### Purpose
 
@@ -34,8 +35,8 @@ Our conception of socialism is a profoundly democratic one.  It is rooted in the
 
 We are socialists because we are developing a concrete strategy for achieving that vision.  In the present, we are building a visible socialist presence within the broad democratic Left.  In the long run, we hope to build a majority movement capable of making democratic socialism a reality in the United States.  Our strategy acknowledges the class structure of the U.S. society.  This class structure means that there is a basic conflict of interest between those sectors with enormous economic power and the vast majority of the population.    
 	  
-ARTICLE III.  
-----
+## ARTICLE III.  
+***
 
 ### Membership
 
@@ -63,8 +64,8 @@ As mandated by the National Constitution and Bylaws, the Chapter may establish a
 
 The Steering Committee shall create and maintain policy and procedures to secure all member data, including but not limited to contact and billing information. This includes website and digital infrastructure security.  
 
-ARTICLE IV.  
-----
+## ARTICLE IV.  
+***
 
 ### Chapter Meetings 
 
@@ -108,8 +109,8 @@ Any action taken by a Chapter Meeting in contravention of these bylaws is null a
 
 A quorum of five (5) percent of the members (but not fewer than six (5) persons) is required for Convention, General, or Special Meetings to transact business.  
 
-ARTICLE V.  
-----
+## ARTICLE V.  
+***
 
 ### Chapter Officers. 
 
@@ -189,8 +190,8 @@ In order to recall or remove an officer, a member in good standing must formally
 
 An officer may be recalled by vote of the Steering Committee only under narrow circumstances for failure to do their duty.  If an officer misses three consecutive Steering Committee meetings without excuse and fails to respond to attempts by Steering Committee members to communicate, that officer may be removed from office by a two-thirds (⅔) vote of the Steering Committee.  This action must be reported at the next Chapter Meeting, at which time members in good standing may overturn the vote.
 
-ARTICLE VI. 
-----
+## ARTICLE VI.  
+***
 
 ### Steering Committee. 
 
@@ -234,8 +235,8 @@ The Steering Committee may make decisions on business by vote of a simple majori
 
 For the purposes of meeting the requirements of local and state incorporation laws, the Chapter shall have a “Board of Directors” consisting of members of the Steering Committee assigned for the purpose as logical and required by law.  
 
-ARTICLE VII.  
-----
+## ARTICLE VII.  
+***
 
 ### Branches.  
 
@@ -257,8 +258,8 @@ A motion to dissolve a Branch must be made by written resolution, endorsed by fi
 
 A motion to dissolve a Branch may include an amendment to these bylaws for the purpose of removing Branch representation on the Steering Committee.  The Chapter Meeting may approve a motion to dissolve a Branch with a bylaws amendment under this article by a two-thirds (⅔) majority vote.  
 
-ARTICLE VIII.  
-----
+## ARTICLE VIII.  
+***
 
 ### Young Democratic Socialists of America Chapters. 
 
@@ -270,8 +271,8 @@ Young Democratic Socialists of America (YDSA) chapters within the geographic are
 
 Each official YDSA Chapter that exists in the Chapter’s territory may nominate one (1) YDSA Liaison that shall coordinate organizing, recruitment, and other efforts with the Flint Hills Chapter.
 
-ARTICLE IX.
-----
+## ARTICLE IX.  
+***
 
 ### Committees.  
 
@@ -287,8 +288,8 @@ A committee may be established by a Chapter Meeting by a simple majority vote.  
 
 Any committee created under this article may be dissolved by a Chapter Meeting at any time by a simple majority vote.  If a committee was established by the Steering Committee, that committee may be dissolved by the Steering Committee at any time by a simple majority vote.  
 
-ARTICLE X.
-----
+## ARTICLE X.  
+***
 
 ### Working Groups and Other Formations.
 
@@ -304,8 +305,8 @@ Such formations may be recognized or established by decision of the Steering Com
 
 The recognition or establishment of such formations may be revoked by simple majority vote of the Steering Committee or Chapter Meeting at any time.  
 
-ARTICLE XI.  
-----
+## ARTICLE XI.  
+***
 
 ### Delegates to National, Regional, and State Organizations.  
 
@@ -325,21 +326,22 @@ Following Article VI, Section 3, of National DSA’s Bylaws, Chapters “may det
 
 Flint Hills DSA will use the same method of voting outlined in Article V, Section 2 of this document for determination of delegates to the Convention, unless such methods violate the DSA National Bylaws or Constitution. In the event of a conflict, Flint Hills DSA will abide by the higher body's decision. 
 
-ARTICLE XII. 
-----
+## ARTICLE XII.  
+***
+
 ### Grievance Procedure.
 
 The Chapter will follow the [Harassment Policy of National DSA](https://www.dsausa.org/about-us/harassment-policy-resolution-33/). 
 
-ARTICLE XIII.
-----
+## ARTICLE XIII.  
+***
 
 ### Prohibited Activity.  
 
 Flint Hills DSA will not engage in activity prohibited by the IRS guidelines established for 501(c)(4) organizations or similar rules established by the state of Kansas.  Nor will the Chapter engage in any activity prohibited by resolutions adopted by DSA’s National Convention or DSA’s National Political Committee.    
    
-ARTICLE XIV.  
-----
+## ARTICLE XIV.  
+***
 
 ### Amendments.  
 
@@ -347,8 +349,9 @@ Proposed amendments to these bylaws must be made by written resolution, endorsed
 
 No amendment to these bylaws may be in conflict with the National DSA Constitution and Bylaws.  The Chapter will provide the amended bylaws to the DSA national office.  
 
-ARTICLE XV.  
-----
+## ARTICLE XV.  
+***
+
 ### Chapter Dissolution. 
 
 A proposal to dissolve the Chapter must be made by written resolution, endorsed by five (5) members in good standing of the Chapter, and submitted to the Steering Committee at least twenty-one (21) days in advance of a Chapter Meeting as defined in Article IV.  The Steering Committee is required to provide the Chapter membership with at least ten (10) days physical or electronic notice of this resolution.  The Chapter Meeting may adopt a resolution to dissolve the Chapter under this article by a two-thirds (⅔) vote.  
