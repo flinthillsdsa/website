@@ -18,6 +18,7 @@ permalink: /resources/chapter-documentation/
         Governing Documents
       </a>
     </h4>
+    <p>By-laws, resolutions, articles aof incorporation, etc.</p>
   </div>
 
   <!-- Steering Committee Meetings -->
@@ -27,6 +28,7 @@ permalink: /resources/chapter-documentation/
         Steering Committee Meetings
       </a>
     </h4>
+    <p>Steering committee meeting agendas and notes.</p>
   </div>
 
   <!-- Chapter Meetings -->
@@ -36,6 +38,7 @@ permalink: /resources/chapter-documentation/
         Chapter Meetings
       </a>
     </h4>
+    <p>Chapter meeting agendas and notes.</p>
   </div>
 
   <!-- Historical Documents -->
@@ -45,6 +48,7 @@ permalink: /resources/chapter-documentation/
         Historical Documents
       </a>
     </h4>
+    <p>Documents that are part of the Chapter archive.</p>
   </div>
 
 </div>
