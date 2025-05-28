@@ -3,6 +3,7 @@ layout: resource
 section: resources
 title: 2025-06-01 Chapter Meeting Agenda
 hide_title: true
+permalink: /resources/chapter-documentation/chapter-meetings/files/2025-06-01-chapter-meeting/
 ---
 
 # 2025-06-01 Chapter Meeting Agenda
