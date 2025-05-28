@@ -39,7 +39,7 @@ collections:
     output: true
   documents:
     output: true            
-    permalink: /docs/
+    permalink: /docs/:path/
     
 defaults:
   - scope:
