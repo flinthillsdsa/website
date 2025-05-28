@@ -2,6 +2,7 @@
 layout: resource
 section: resources
 title: Governing Documents
+hide_title: true
 ---
 
 # Governing Documents

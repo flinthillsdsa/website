@@ -2,6 +2,7 @@
 layout: resource
 section: resources
 title: 2025-06-05 Chapter Meeting Agenda
+hide_title: true
 ---
 
 # 2025-06-05 Chapter Meeting Agenda

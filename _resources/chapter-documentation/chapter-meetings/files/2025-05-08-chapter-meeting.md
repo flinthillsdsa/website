@@ -2,6 +2,7 @@
 layout: resource
 section: resources
 title: 2025-05-08 Chapter Meeting Minutes
+hide_title: true
 ---
 
 # 2025-05-08 Chapter Meeting Minutes

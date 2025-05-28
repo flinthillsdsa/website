@@ -2,6 +2,7 @@
 layout: resource
 section: resources
 title: Chapter Meetings
+hide_title: true
 ---
 
 # Chapter Meetings
