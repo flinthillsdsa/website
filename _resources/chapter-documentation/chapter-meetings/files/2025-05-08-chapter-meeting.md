@@ -8,7 +8,7 @@ hide_title: true
 # 2025-05-08 Chapter Meeting Minutes
 
 ## Flint Hills DSA
- 
+  
 ***
 
 **Date:** May 8, 2025
