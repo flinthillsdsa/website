@@ -5,7 +5,7 @@
 caption:
   title: Organizing
   #subtitle: Chapter Priorities
-  thumbnail: https://www.fhdsa.org/assets/img/about/organizing.png
+  thumbnail: https://flinthillsdsa.github.io/website/assets/img/about/organizing.png
 ---
   
 
