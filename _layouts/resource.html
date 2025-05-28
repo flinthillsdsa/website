@@ -1,53 +1,23 @@
-<!-- _includes/resources.html -->
-<section id="resources" class="page-section bg-light">
-  <div class="container">
-    <!-- Section header -->
-    <div class="row text-center mb-4">
-      <div class="col-lg-12">
-        <h2 class="section-heading text-uppercase">Resources</h2>
-        <h3 class="section-subheading text-muted">
-          Quick links to all relevant information, documentation, and updates.
-        </h3>
-      </div>
-    </div>
-    <!-- Grid of top-level resource pages (2×2) -->
-    <div class="row justify-content-center align-items-start">
-      <!-- Chapter Documentation -->
-      <div class="col-sm-12 col-md-6 mb-4 text-center">
-        <h4>
-          <a href="{{ '/resources/chapter-documentation/' | relative_url }}">
-            Chapter Documentation
-          </a>
-        </h4>
-        <p>Central hub for our bylaws, agendas, minutes, and archives.</p>
-      </div>
-      <!-- Committees -->
-      <div class="col-sm-12 col-md-6 mb-4 text-center">
-        <h4>
-          <a href="{{ '/resources/committees/' | relative_url }}">
-            Committees
-          </a>
-        </h4>
-        <p>Steering, outreach, and more.</p>
-      </div>
-      <!-- Educational Resources -->
-      <div class="col-sm-12 col-md-6 mb-4 text-center">
-        <h4>
-          <a href="{{ '/resources/educational-resources/' | relative_url }}">
-            Educational Resources
-          </a>
-        </h4>
-        <p>Guides, readings, webinars.</p>
-      </div>
-      <!-- Working Groups -->
-      <div class="col-sm-12 col-md-6 mb-4 text-center">
-        <h4>
-          <a href="{{ '/resources/working-groups/' | relative_url }}">
-            Working Groups
-          </a>
-        </h4>
-        <p>Current projects &amp; initiatives.</p>
-      </div>
-    </div>
-  </div>
-</section>
+---
+# file: _layouts/resource.html
+---
+{% include head.html %}
+<body id="page-top">
+  {% include nav.html %}
+
+  <main role="main">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+  <!-- Bootstrap & plugin scripts… -->
+  <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/jquery.easing.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/jqBootstrapValidation.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/contact_me.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/modal-forms.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/agency.min.js' | relative_url }}"></script>
+</body>
+</html>
