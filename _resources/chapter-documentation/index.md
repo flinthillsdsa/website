@@ -8,7 +8,7 @@ permalink: /resources/chapter-documentation/
 <section class="page-section bg-light">
   <div class="container">
 
-
+<h1>Chapter Documentation</h1>
     <!-- Grid of sub-sections -->
     <div class="row justify-content-center align-items-start">
 
