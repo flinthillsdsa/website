@@ -1,35 +1,28 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
-# If you change this file, please restart the server process.
-
-# Site settings
-# are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-#theme: jekyll-agency
+# ----------------------------------------
+# Basic site settings
+# ----------------------------------------
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "https://www.fhdsa.org" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url      : "https://www.fhdsa.org"
+baseurl  : ""                 # leave empty for root-domain site
 
-title      : Flint Hills DSA
-email      : chapter@fhdsa.org #this is also the email contact forms will go to
-description: "Official website for the Flint Hills Chapter of the Democratic Socialists of America"
-author     : Derron Borders
+title       : "Flint Hills DSA"
+email       : "chapter@fhdsa.org"   # contact-form target
+description : "Official website for the Flint Hills Chapter of the Democratic Socialists of America"
+author      : "Derron Borders"
+
 logo:
-  path: "/assets/img/clients/fhdsalogo.png"
+  path  : "/assets/img/clients/fhdsalogo.png"
   height: 60
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+locale: "en-US"
 
 analytics:
-  google: #Google Analytics tracking code here
+  google:    # add tracking ID if you use GA
 
+# ----------------------------------------
+# Collections
+# ----------------------------------------
 collections:
   portfolio:
     output: true
@@ -37,23 +30,33 @@ collections:
     output: true
   resources:
     output: true
-  documents:
-    output: true            
-    permalink: /docs/:path/
-    
+  documents:                 # external Markdown synced here
+    output: true
+    permalink: /docs/:path/  # clean URLs like /docs/chapter-documentation/bylaws/
+
+# ----------------------------------------
+# Default front-matter for documents
+# ----------------------------------------
 defaults:
   - scope:
-      path: ""              # any path
-      type: documents       # applies only to the documents collection
+      path: ""               # match any file
+      type: documents        # only the documents collection
     values:
-      layout: resource
+      layout : resource
       section: resources
-    
+
+# ----------------------------------------
+# Markdown processor
+# ----------------------------------------
 markdown: kramdown
 
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# ----------------------------------------
+# Formspree (contact & modal forms)
+# ----------------------------------------
 formspree_form_path: "f/xyzwrkba"
 
+# ----------------------------------------
+# Plugins (GitHub Pages-allowed only)
+# ----------------------------------------
 plugins:
   - jekyll-remote-theme
