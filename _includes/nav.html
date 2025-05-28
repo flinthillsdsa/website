@@ -1,6 +1,8 @@
 <!-- _includes/nav.html -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top
-            {% if page.section == 'resources' %}navbar-shrink{% endif %}"
+            {% if page.section == 'resources' or page.collection == 'resources' %}
+              navbar-shrink
+            {% endif %}"
      id="mainNav" style="background-color:#212529">
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
