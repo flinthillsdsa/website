@@ -11,7 +11,6 @@ hide_title: true
 
 ***
 
-
 **Date:** May 8, 2025
 **Time:** 6:00 PM
 **Location:** City Park & Discord
