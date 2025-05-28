@@ -1,0 +1,67 @@
+name: Sync Chapter By-Laws
+
+# ───────────────────────────────────────────────────────────
+# Run manually, on a weekly schedule, or when this workflow
+# file itself changes.
+# ───────────────────────────────────────────────────────────
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 4 * * 1'       # every Monday 04:00 UTC
+  push:
+    paths:
+      - .github/workflows/sync-bylaws.yml
+
+# Allow the default GITHUB_TOKEN to push to the repo
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    # 1) Check out your website repo
+    - uses: actions/checkout@v4
+
+    # 2) Download the latest bylaws Markdown
+    - name: Download bylaws
+      run: |
+        mkdir -p _documents/chapter-documentation
+        curl -sL \
+          https://raw.githubusercontent.com/flinthillsdsa/governing-documents/main/bylaws/2025-05-25-fhdsa-bylaws.md \
+          -o _documents/chapter-documentation/bylaws.md
+
+    # 3) Inject or replace front-matter
+    - name: Inject front-matter
+      run: |
+        FILE=_documents/chapter-documentation/bylaws.md
+
+        # Grab first Markdown heading (e.g. "# Chapter By-Laws")
+        FIRST_HEADING=$(grep -m1 -E '^# ' "$FILE" | sed 's/^# *//')
+        TITLE=${FIRST_HEADING:-"Document"}
+
+        # Remove that heading from the body
+        sed -i '0,/^# /{s/^# .*//}' "$FILE"
+
+        # Build new file with front-matter + body
+        {
+          echo '---'
+          echo 'layout: resource'
+          echo 'section: resources'
+          printf 'title: "%s"\n' "$TITLE"
+          # Optional subtitle line:
+          # printf 'subtitle: "Synced from governing-documents repo"\n'
+          echo '---'
+          echo
+          cat "$FILE"
+        } > tmpfile && mv tmpfile "$FILE"
+
+    # 4) Commit & push only when the file actually changed
+    - name: Commit and push if updated
+      run: |
+        git config user.name  "github-actions"
+        git config user.email "actions@github.com"
+        git add _documents/chapter-documentation/bylaws.md
+        git diff --cached --quiet || { \
+          git commit -m "Sync chapter by-laws"; \
+          git push; }
