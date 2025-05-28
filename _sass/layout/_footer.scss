@@ -42,7 +42,8 @@ ul.social-buttons {
       /* --------------------------------------------- */
 
       &:hover, &:focus, &:active {
-        background-color: $primary;
+        background-color: #ffffff;
+        color: #212529;
       }
     }
   }
