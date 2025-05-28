@@ -1,9 +1,12 @@
 <!-- _includes/nav.html -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top
-            {% if page.section == 'resources' or page.collection == 'resources' %}
-              navbar-shrink
-            {% endif %}"
-     id="mainNav" style="background-color:#212529">
+<nav
+  class="navbar navbar-expand-lg navbar-dark fixed-top
+        {% if page.section == 'resources' or page.collection == 'resources' %}
+          navbar-shrink
+        {% endif %}"
+  id="mainNav"
+  style="background-color:#212529; z-index:1050;"   <!-- higher z-index so dropdown is clickable -->
+>
   <div class="container">
     <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
       {%- if site.logo -%}
@@ -12,11 +15,19 @@
         {{ site.title }}
       {%- endif -%}
     </a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-            aria-label="Toggle navigation">
+
+    <button
+      class="navbar-toggler navbar-toggler-right"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       Menu <i class="fas fa-bars"></i>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
 
@@ -34,11 +45,8 @@
             </li>
 
           {%- elsif link.section == "resources" -%}
-            {% comment %}
-              If on any resources page, show full nested dropdown;
-              otherwise show a scroll-to link.
-            {% endcomment %}
-            {%- if page.section == "resources" -%}
+            {%- if page.section == "resources" or page.collection == "resources" -%}
+              <!-- Full dropdown with fixed order -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button"
                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -46,44 +54,36 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
 
-                  <!-- Chapter Documentation group -->
+                  <!-- Chapter Documentation -->
                   <h6 class="dropdown-header">Chapter Documentation</h6>
-                  {% assign cd_index = site.resources | where: "path", "chapter-documentation.html" %}
-                  {% assign cd_subs  = site.resources | where: "dir",  "chapter-documentation" %}
-                  {% for item in cd_index | concat: cd_subs %}
-                    <a class="dropdown-item" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                  {% endfor %}
+                  <a class="dropdown-item font-weight-bold" href="{{ '/resources/chapter-documentation/' | relative_url }}">Overview</a>
+                  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/governing-documents/' | relative_url }}">Governing Documents</a>
+                  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/steering-committee-meetings/' | relative_url }}">Steering Committee Meetings</a>
+                  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/chapter-meetings/' | relative_url }}">Chapter Meetings</a>
+                  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/historical-documents/' | relative_url }}">Historical Documents</a>
                   <div class="dropdown-divider"></div>
 
-                  <!-- Committees group -->
+                  <!-- Committees -->
                   <h6 class="dropdown-header">Committees</h6>
-                  {% assign com_index = site.resources | where: "path", "committees.html" %}
-                  {% assign com_subs  = site.resources | where: "dir",  "committees" %}
-                  {% for item in com_index | concat: com_subs %}
-                    <a class="dropdown-item" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                  {% endfor %}
+                  <a class="dropdown-item font-weight-bold" href="{{ '/resources/committees/' | relative_url }}">Overview</a>
+                  <!-- Add committee sub-pages here with pl-4 if desired -->
                   <div class="dropdown-divider"></div>
 
-                  <!-- Educational Resources group -->
+                  <!-- Educational Resources -->
                   <h6 class="dropdown-header">Educational Resources</h6>
-                  {% assign edu_index = site.resources | where: "path", "educational-resources.html" %}
-                  {% assign edu_subs  = site.resources | where: "dir",  "educational-resources" %}
-                  {% for item in edu_index | concat: edu_subs %}
-                    <a class="dropdown-item" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                  {% endfor %}
+                  <a class="dropdown-item font-weight-bold" href="{{ '/resources/educational-resources/' | relative_url }}">Overview</a>
+                  <!-- Add educational sub-pages here -->
                   <div class="dropdown-divider"></div>
 
-                  <!-- Working Groups group -->
+                  <!-- Working Groups -->
                   <h6 class="dropdown-header">Working Groups</h6>
-                  {% assign wg_index = site.resources | where: "path", "working-groups.html" %}
-                  {% assign wg_subs  = site.resources | where: "dir",  "working-groups" %}
-                  {% for item in wg_index | concat: wg_subs %}
-                    <a class="dropdown-item" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                  {% endfor %}
+                  <a class="dropdown-item font-weight-bold" href="{{ '/resources/working-groups/' | relative_url }}">Overview</a>
+                  <!-- Add working-group sub-pages here -->
 
                 </div>
               </li>
             {%- else -%}
+              <!-- Just scroll down to the resources section on home page -->
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#resources">{{ link.title }}</a>
               </li>
