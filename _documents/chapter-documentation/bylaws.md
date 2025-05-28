@@ -1,11 +1,8 @@
 ---
 layout: resource
-title: "Chapter By-Laws"
+title: "Bylaws of the Flint Hills Chapter of Democratic Socialists of America"
 section: resources
 ---
-
-Bylaws of the Flint Hills Chapter of Democratic Socialists of America
-=====================================================================
 
 Adopted yyyy-mm-dd; approved by the NPC yyyy-mm-dd
 ----
