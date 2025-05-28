@@ -1,5 +1,7 @@
 // Styling for the footer
 .footer {
+  background-color: #212529;
+  color: #ffffff;
   padding: 25px 0;
   text-align: center;
   span.copyright {
@@ -8,6 +10,12 @@
     text-transform: none;
     @include heading-font;
   }
+
+  span.copyright,
+  ul.quicklinks {
+    color: #ffffff;            // override any inherited grey
+  }
+}
   ul.quicklinks {
     font-size: 90%;
     line-height: 40px;
@@ -28,7 +36,7 @@ ul.social-buttons {
       display: block;
       color: white;
       border-radius: 100%;
-      background-color: $gray-900;
+      background-color: $primary;
       transition: all 0.3s;
 
       /* --- NEW: flex-center the FontAwesome icon --- */
