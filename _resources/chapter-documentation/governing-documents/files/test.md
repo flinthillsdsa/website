@@ -3,6 +3,7 @@ layout: resource
 section: resources
 title: Test
 hide_title: true
+permalink: /resources/chapter-documentation/governing-documents/files/test.html
 ---
 
 # Test
