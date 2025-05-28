@@ -6,7 +6,7 @@
 caption:
   title: Upcoming Events
   #subtitle: 
-  thumbnail: https://www.fhdsa.org/assets/img/about/calendar.png
+  thumbnail: https://flinthillsdsa.github.io/website/assets/img/about/calendar.png
 ---
 
 Here’s our public calendar of upcoming meetings, actions, and events:
