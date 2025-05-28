@@ -1,0 +1,50 @@
+name: Sync Chapter By-Laws
+
+on:
+  workflow_dispatch:          # run manually
+  schedule:
+    - cron:  '0 4 * * 1'      # every Monday 04:00 UTC
+
+# allow default GITHUB_TOKEN to push
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+
+      # 1) Checkout your website repo
+      - uses: actions/checkout@v4
+
+      # 2) Download the by-laws Markdown from the external repo
+      - name: Download latest by-laws
+        run: |
+          mkdir -p _documents/chapter-documentation
+          curl -sL \
+            https://raw.githubusercontent.com/flinthillsdsa/governing-documents/main/bylaws/2025-05-25-fhdsa-bylaws.md \
+            -o _documents/chapter-documentation/bylaws.md
+
+      # 3) Add default front-matter if the MD has none
+      - name: Ensure front-matter
+        run: |
+          FILE=_documents/chapter-documentation/bylaws.md
+          if ! grep -q '^---' "$FILE"; then
+            echo '---'                                >  tmpfile
+            echo 'layout: resource'                  >> tmpfile
+            echo 'title: "Chapter By-Laws"'          >> tmpfile
+            echo 'section: resources'                >> tmpfile
+            echo '---'                               >> tmpfile
+            cat  "$FILE"                             >> tmpfile
+            mv tmpfile "$FILE"
+          fi
+
+      # 4) Commit & push _only_ if the file changed
+      - name: Commit and push if updated
+        run: |
+          git config user.name  "github-actions"
+          git config user.email "actions@github.com"
+          git add _documents/chapter-documentation/bylaws.md
+          git diff --cached --quiet || { \
+            git commit -m "Update chapter by-laws"; \
+            git push; }
