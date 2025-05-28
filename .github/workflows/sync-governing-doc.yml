@@ -1,5 +1,8 @@
 name: Sync Governing By-laws
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:            # you can run it manually from “Actions”
   schedule:
