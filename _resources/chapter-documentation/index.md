@@ -7,8 +7,7 @@ permalink: /resources/chapter-documentation/
 
 # Chapter Documentation  
 
-    <!-- Grid of sub-sections -->
-    <div class="row justify-content-center align-items-start">
+<div class="row justify-content-center align-items-start">
 
       <!-- Governing Documents -->
       <div class="col-sm-12 col-md-6 mb-4 text-center">
@@ -47,5 +46,5 @@ permalink: /resources/chapter-documentation/
       </div>
 
     </div>
-  </div>
+</div>
 
