@@ -30,9 +30,7 @@ collections:
     output: true
   resources:
     output: true
-  documents:                 # external Markdown synced here
-    output: true
-    permalink: /docs/:path/  # clean URLs like /docs/chapter-documentation/bylaws/
+    permalink: /resources/:path/
 
 # ----------------------------------------
 # Default front-matter for documents
