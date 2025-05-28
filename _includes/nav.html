@@ -52,35 +52,47 @@
                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   {{ link.title }}
                 </a>
-                <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
+               <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
 
-                  <!-- Chapter Documentation -->
-                  <h6 class="dropdown-header">Chapter Documentation</h6>
-                  <a class="dropdown-item font-weight-bold" href="{{ '/resources/chapter-documentation/' | relative_url }}">Overview</a>
-                  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/governing-documents/' | relative_url }}">Governing Documents</a>
-                  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/steering-committee-meetings/' | relative_url }}">Steering Committee Meetings</a>
-                  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/chapter-meetings/' | relative_url }}">Chapter Meetings</a>
-                  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/historical-documents/' | relative_url }}">Historical Documents</a>
-                  <div class="dropdown-divider"></div>
+  <!-- Chapter Documentation -->
+  <a class="dropdown-item font-weight-bold" href="{{ '/resources/chapter-documentation/' | relative_url }}">
+    Chapter Documentation
+  </a>
+  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/governing-documents/' | relative_url }}">
+    Governing Documents
+  </a>
+  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/steering-committee-meetings/' | relative_url }}">
+    Steering Committee Meetings
+  </a>
+  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/chapter-meetings/' | relative_url }}">
+    Chapter Meetings
+  </a>
+  <a class="dropdown-item pl-4" href="{{ '/resources/chapter-documentation/historical-documents/' | relative_url }}">
+    Historical Documents
+  </a>
+  <div class="dropdown-divider"></div>
 
-                  <!-- Committees -->
-                  <h6 class="dropdown-header">Committees</h6>
-                  <a class="dropdown-item font-weight-bold" href="{{ '/resources/committees/' | relative_url }}">Overview</a>
-                  <!-- Add committee sub-pages here with pl-4 if desired -->
-                  <div class="dropdown-divider"></div>
+  <!-- Committees -->
+  <a class="dropdown-item font-weight-bold" href="{{ '/resources/committees/' | relative_url }}">
+    Committees
+  </a>
+  <!-- committee sub-pages here with pl-4 -->
+  <div class="dropdown-divider"></div>
 
-                  <!-- Educational Resources -->
-                  <h6 class="dropdown-header">Educational Resources</h6>
-                  <a class="dropdown-item font-weight-bold" href="{{ '/resources/educational-resources/' | relative_url }}">Overview</a>
-                  <!-- Add educational sub-pages here -->
-                  <div class="dropdown-divider"></div>
+  <!-- Educational Resources -->
+  <a class="dropdown-item font-weight-bold" href="{{ '/resources/educational-resources/' | relative_url }}">
+    Educational Resources
+  </a>
+  <!-- educational sub-pages here -->
+  <div class="dropdown-divider"></div>
 
-                  <!-- Working Groups -->
-                  <h6 class="dropdown-header">Working Groups</h6>
-                  <a class="dropdown-item font-weight-bold" href="{{ '/resources/working-groups/' | relative_url }}">Overview</a>
-                  <!-- Add working-group sub-pages here -->
+  <!-- Working Groups -->
+  <a class="dropdown-item font-weight-bold" href="{{ '/resources/working-groups/' | relative_url }}">
+    Working Groups
+  </a>
+  <!-- working-group sub-pages here -->
+</div>
 
-                </div>
               </li>
             {%- else -%}
               <!-- Just scroll down to the resources section on home page -->
