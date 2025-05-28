@@ -31,20 +31,21 @@ permalink: /resources/chapter-documentation/chapter-meetings/files/2025-06-05-ch
 
 #### New Business
 
-
 #### Old Business
-
-
  
 #### Action Items
-
-
-
-**Next Meeting:** 
 
 #### Meeting Adjorned
 
 **Time:** 
-      
+
+***
+
+### Next Meeting
+
+**Date:** TBD
+**Time:** TBD
+**Location:** TBD
+
 
 
