@@ -31,7 +31,7 @@ collections:
   resources:
     output: true
     permalink: /resources/:path/
-
+ 
 # ----------------------------------------
 # Default front-matter for documents
 # ----------------------------------------
