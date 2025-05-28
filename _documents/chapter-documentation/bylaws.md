@@ -1,3 +1,9 @@
+---
+layout: resource
+title: "Chapter By-Laws"
+section: resources
+---
+
 Bylaws of the Flint Hills Chapter of Democratic Socialists of America
 =====================================================================
 
