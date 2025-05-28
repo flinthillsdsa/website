@@ -8,5 +8,5 @@ permalink: /resources/chapter-documentation/chapter-meetings/
 
 # Chapter Meetings
 
-- [2025-06-05 Chapter Meeting Agenda](files/2025-06-05-chapter-meeting)
-- [2025-05-08 Chapter Meeting Minutes](files/2025-05-08-chapter-meeting)
+- [2025-06-05 Chapter Meeting Agenda](files/2025-06-05-chapter-meeting.md)
+- [2025-05-08 Chapter Meeting Minutes](files/2025-05-08-chapter-meeting.md)
