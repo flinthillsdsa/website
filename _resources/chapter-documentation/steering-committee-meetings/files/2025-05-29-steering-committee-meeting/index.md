@@ -1,112 +1,127 @@
 ---
 layout: resource
 section: resources
-title: "2025-05-29 Steering Committee Meeting Agenda"
+title: "2025-05-29 Steering Committeee Meeting Agenda"
 hide_title: true
 permalink: /resources/chapter-documentation/steering-committee-meetings/files/2025-05-29-steering-committee-meeting/
 ---
 
-# 2025-05-29 Steering Committee Meeting Agenda
+# 2025-05-29 Steering Committeee Meeting Agenda
 
 ## Flint Hills DSA
 
-***
-
+*** 
 
 **Date:** May 29, 2025
-**Time:** TBD
-**Location:** TBD
+
+**Time:**  5:30 PM CDT
+
+**Location:** Manhattan Public Library/Online
 
 ***
 
-### Attendees
-
-#### Steering Committee
-
-- [ ] Noah
-- [ ] Peter
-- [ ] Steve
-- [ ] Beccah
-- [ ] Amanda
-- [ ] Derron
-
-
-#### Guest(s):
-
-- None
-
-***
-
-#### Approve Last Steering Committee Meeting Minutes
-
-**Motioned:**
+### I. Call to order
 
 - 
 
-**Seconded:**
+***
+ 
+### II. Attendance 
 
-- 
+-[ ] Noah
+-[ ] Peter
+-[ ] Steve
+-[ ] Beccah
+-[ ] Amber
+-[ ] Derron
 
-**Vote:**
+*** 
 
--[ ] Pass
--[ ] Fail
+### III. Aproval of last meeting's minutes
+
+#### Motion
+
+- {Who?}
+
+#### Vote 
+
+\# yay/# nay/# abstained
 
 ***
 
-### Agenda
+#### IV. Updates and News
 
-#### Last Meeting Follow-up
+##### Commmittee 
 
-#### Steering Committee Updates and News
+- The Andor watch party was a blast!
+
+##### Working Groups
 
 - Josh Countryman was made lead for Palestine action and organizing.
-- The Andor Watch Party was a blast!
-
-#### KSU YDSA Updates and News
+- 
+##### KSU/YDSA 
 
 - YDSA have been attending ICE/DEI Town halls.
 - The students are out for the summer so activity will be lower for the YDSA.
 - New YDSA committee chairs were elected:
-  - Mutual Aid - Campbell  
+  - Mutual Aid - Campbell
   - Direct Action - Kyle
   - Education - Sam
- 
-#### Kansas DSA Updates and News
 
-- 
+##### Kansas DSA 
 
-#### National DSA and General Updates and News
+##### National DSA
+
+- Zionism Apologists post
+
+<img src=https://github.com/flinthillsdsa/chapter-documenation/blob/main/chapter-meetings/img/nationaldsaapology.png>
+  
+##### General DSA
 
 - Missouri DSA chapters raised $15k to forgive $1.5 million dollars of medical debt!
 
+***
 
-#### New Business
+#### V. Open issues
 
+***
+
+#### VI. New Business
 - Action Network - clean up and training.
 - Security Proposal
 - Website
 - Scheduling and Communication guidelines and norms
-- Education and training.
-- Chapter Meeting Agenda
+- Education and training
+- National Org RE: Zionist Apologists - letter of discontent
 
-
-#### Old Business
+***
  
-#### Action Items
+#### VII. Action Items
+
+|Action Item|Owner(s)|Deadline|Status|
+|-----------|--------|--------|------|
+|{item}|{owner(s)}|{deadline}|{status}|
+
 
 ***
 
-### Meeting Adjorned
-
-**Time:** 
+#### VIII. Announcements
 
 ***
 
-### Next Meeting
+#### Next Meeting
 
-**Date:** TBD
-**Time:** TBD
-**Location:** TBD
+**Date:**
+
+**Time:**
+
+**Location:**
+
+***
+
+#### Meeting Adjorned
+
+**Time:** {Time}
+      
 
 
