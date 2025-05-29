@@ -8,4 +8,4 @@ permalink: /resources/chapter-documentation/steering-committee-meetings/
 
 # Steering Committee Meetings
 
-- [Test](files/test/)
+- [2025-04-17 Steering Committee Meeting Minutes](files/2024-04-17-steering-committee-meeting/)
