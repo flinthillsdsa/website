@@ -1,7 +1,7 @@
 ---
 layout: resource
 section: resources
-title: 2025-05-29 Steering Committee Meeting Agenda
+title: "2025-05-29 Steering Committee Meeting Agenda"
 hide_title: true
 permalink: /resources/chapter-documentation/steering-committee-meetings/files/2025-05-29-steering-committee-meeting/
 ---

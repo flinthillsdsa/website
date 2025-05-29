@@ -1,7 +1,7 @@
 ---
 layout: resource
 section: resources
-title: 2025-04-17 Steering Committee Meeting Minutes
+title: "2025-04-17 Steering Committee Meeting Minutes"
 hide_title: true
 permalink: /resources/chapter-documentation/steering-committee-meetings/files/2025-04-17-steering-committee-meeting/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: resource
 section: resources
-title: Bylaws of the Flint Hills Chapter of Democratic Socialists of America
+title: "Bylaws of the Flint Hills Chapter of Democratic Socialists of America"
 hide_title: true
 permalink: /resources/chapter-documentation/governing-documents/files/2025-05-28-bylaws/
 ---

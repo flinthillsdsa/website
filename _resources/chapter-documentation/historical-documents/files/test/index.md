@@ -1,7 +1,7 @@
 ---
 layout: resource
 section: resources
-title: test
+title: "test"
 hide_title: true
 permalink: /resources/chapter-documentation/historical-documents/files/test/
 ---

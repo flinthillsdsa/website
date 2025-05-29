@@ -1,7 +1,7 @@
 ---
 layout: resource
 section: resources
-title: Historical Documents
+title: "Historical Documents"
 hide_title: true
 permalink: /resources/chapter-documentation/historical-documents/
 ---

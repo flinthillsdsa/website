@@ -1,7 +1,7 @@
 ---
 layout: resource
 section: resources
-title: Resolution: A Principled Anti-Zionist Flint Hills DSA
+title: "Resolution: A Principled Anti-Zionist Flint Hills DSA"
 hide_title: true
 permalink: /resources/chapter-documentation/governing-documents/files/2024-10-05-resolution/
 ---
@@ -42,7 +42,7 @@ Resolution #, October 5, 2024
 
 **Be it further resolved**, the Flint Hills DSA will make concerted efforts to inform and educate its members, the public, and political candidates seeking endorsement on the history of Palestine and Zionism;
 
-**Be it further resolved**, that membership within the Flint Hills DSA is contingent on the following:
+**Be it further resolved**, that membership within the Flint Hills DSA is contingent on the following: 
 
 1. Members must condemn Zionism in both theory and praxis  
 2. Members must recognize that anti-Zionism is not indicative of anti-Semitism and must oppose attempts to alter either definition so as to conflate the two  
