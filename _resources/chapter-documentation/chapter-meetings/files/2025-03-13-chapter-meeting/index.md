@@ -1,12 +1,12 @@
 ---
 layout: resource
 section: resources
-title: "Y2025-03-13 Chapter Meeting Minutes"
+title: "2025-03-13 Chapter Meeting Minutes"
 hide_title: true
 permalink: /resources/chapter-documentation/chapter-meetings/files/2025-03-13-chapter-meeting/
 ---
 
-# Y2025-03-13 Chapter Meeting Minutes 
+# 2025-03-13 Chapter Meeting Minutes 
 
 ## Flint Hills DSA
 
