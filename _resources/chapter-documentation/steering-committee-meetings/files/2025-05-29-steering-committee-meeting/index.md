@@ -29,10 +29,15 @@ permalink: /resources/chapter-documentation/steering-committee-meetings/files/20
 ### II. Attendance 
 
 -[ ] Noah
+
 -[ ] Peter
+
 -[ ] Steve
+
 -[ ] Beccah
+
 -[ ] Amber
+
 -[ ] Derron
 
 *** 
@@ -74,7 +79,6 @@ permalink: /resources/chapter-documentation/steering-committee-meetings/files/20
 
 - Zionism Apologists post
 
-<img src=https://github.com/flinthillsdsa/chapter-documenation/blob/main/chapter-meetings/img/nationaldsaapology.png>
   
 ##### General DSA
 
