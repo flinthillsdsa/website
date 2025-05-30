@@ -12,15 +12,6 @@ permalink: /resources/educational-resources
 <!-- Grid of sub-sections -->
 <div class="row justify-content-center align-items-start">
 
-  <!-- Chapter Infrastructure -->
-<div class="col-sm-12 col-md-6 mb-4 text-center">
-  <h4>
-    <a href="{{ '/resources/chapter-infrastructure/' | relative_url }}">
-      Chapter Infrastructure
-    </a>
-  </h4>
-  <p>Membership data, tech tools, fundraising, and internal operations.</p>
-</div>
 
 <!-- Socialist Political Education -->
 <div class="col-sm-12 col-md-6 mb-4 text-center">
