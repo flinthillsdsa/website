@@ -3,8 +3,8 @@
 # ----------------------------------------
 remote_theme: raviriley/agency-jekyll-theme
 
-url       : "https://flinthillsdsa.github.io"
-baseurl   : "/website"                 # leave empty for root‐domain site
+url       : "https://www.fhdsa.org"
+baseurl   : ""                 # leave empty for root‐domain site
 
 title       : "Flint Hills DSA"
 email       : "chapter@fhdsa.org"
