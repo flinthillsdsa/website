@@ -2,7 +2,7 @@
 layout: resource
 title: "Educational Resources"
 description: "Below are resrouces compiled by the members of the Flint Hills DSA to engage in education around the various topics that impact socialists. "
-permalink: /resources/educational-resources
+permalink: /resources/educational-resources/index.md
 ---
 
 # Chapter Documentation  
