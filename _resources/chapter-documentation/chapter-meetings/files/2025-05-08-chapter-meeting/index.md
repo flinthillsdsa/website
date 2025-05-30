@@ -33,7 +33,7 @@ permalink: /resources/chapter-documentation/chapter-meetings/files/2025-05-08-ch
 - Steve S.
 - William G.
 - Peter H.
-- Macerick F.
+- Maverick F.
 
 ***
 
