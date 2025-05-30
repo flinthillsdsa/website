@@ -21,26 +21,6 @@ permalink: /resources/chapter-documentation/
     <p>By-laws, resolutions, articles aof incorporation, etc.</p>
   </div>
 
-  <!-- Steering Committee Meetings -->
-  <div class="col-sm-12 col-md-6 mb-4 text-center">
-    <h4>
-      <a href="{{ '/resources/chapter-documentation/steering-committee-meetings/' | relative_url }}">
-        Steering Committee Meetings
-      </a>
-    </h4>
-    <p>Steering committee meeting agendas and notes.</p>
-  </div>
-
-  <!-- Chapter Meetings -->
-  <div class="col-sm-12 col-md-6 mb-4 text-center">
-    <h4>
-      <a href="{{ '/resources/chapter-documentation/chapter-meetings/' | relative_url }}">
-        Chapter Meetings
-      </a>
-    </h4>
-    <p>Chapter meeting agendas and notes.</p>
-  </div>
-
   <!-- Historical Documents -->
   <div class="col-sm-12 col-md-6 mb-4 text-center">
     <h4>
