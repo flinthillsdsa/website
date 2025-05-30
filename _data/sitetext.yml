@@ -25,7 +25,7 @@ en: &DEFAULT_EN
 
   team:
     title: "Steering Committee"
-    text: "The Chapter is led by a group of local volunteers living in and around Manhattah, KS."
+    text: "The Chapter is led by a group of local volunteers living in and around Manhattan, KS."
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
