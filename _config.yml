@@ -12,7 +12,7 @@ description : "Official website for the Flint Hills Chapter of the Democratic So
 author      : "Derron Borders"
 
 logo:
-  path  : "/assets/img/clients/fhdsalogo.png"
+  path  : "../assets/img/clients/fhdsalogo.png"
   height: 60
 
 locale: "en-US"
