@@ -5,7 +5,7 @@ description: "Here is the hub for all things socialism! "
 permalink: /resources/educational-resources/
 ---
 
-# Chapter Documentation  
+# Political Education
 
 <br>
 <br>
@@ -14,7 +14,7 @@ permalink: /resources/educational-resources/
 
 ## Books
 
-## Pocasts
+## Podcasts
 
 ## Independent
 
