@@ -59,7 +59,7 @@ en: &DEFAULT_EN
         social:
           - url: https://www.dialecticalpraxis.com
             icon: fab fa-user
-          - url: https://bsky.app/profile/derron.blue
+          - url: https://bsky.app/profile/dialecticalpraxis.com
             icon: fab fa-bluesky
           - url: https://www.instagram.com/derronstephen
             icon: fab fa-instagram
