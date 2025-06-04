@@ -32,9 +32,14 @@ en: &DEFAULT_EN
       - name: "Noah (he/they)"
         role: "Co-chair"
         image: assets/img/team/placeholder.png
-      - name: "Peter (he/him)"
+      - name: "Peter (he/they)"
         role: "Co-chair"
-        image: assets/img/team/placeholder.png
+        image: assets/img/team/peter.jpg
+        bio:  |
+          A lifelong Kansas resident, **Peter** is a biomedical engineer and technician whose socialist awakening came about shortly after the March For Our Lives movement in 2018. When not pushing for Palestinian advocacy or pro-humanity work, Peter is a homebody and a tinkerer at heart, with a soft spot for TTRPGs
+        social:
+          - url: https://www.facebook.com/RebaccahABromley/
+            icon: fab fa-facebook-f
       - name: "Steve (he/him)"
         role: "Treasurer"
         image: assets/img/team/placeholder.png
@@ -53,9 +58,9 @@ en: &DEFAULT_EN
         role: "Membership Coordinator"
         image: assets/img/team/derron.png
         bio:  |
-          **Derron** is a vegan Marxist-Leninist socialist from Ohio. They are currently pursuing a PhD in adult learning and leadership, focusing on radical collective liberation. 
-          In their free time, you can find Derron at their plot at the Manhattan Community Gardens, volunteering, crafting, learning languages, 
-          writing, and escaping the realities of capitalism through reading fantasy fiction.
+          **Derron** is a vegan Marxist-Leninist organizer from Ohio. They are currently pursuing a PhD in adult learning and leadership at Kansas State University focusing on epistemogloy of adult learning. As an activist and educator they work to dismantle oppressive systems with the ultimate goal to drive positive change towards collective liberation, centering the liberation of individuals and communities who have been systematically denied access to life-sustaining resources and basic human dignity. They take my lead from folks like Frantz Fanon, James Baldwin, bell hooks, Paulo Freire, Myles Horton, Walter Mignolo, Maria Lugones, Aníbal Quijano, Audre Lorde, Angela Davis, and Toni Morrison, to guide their dialectical praxis in liberatory education.
+
+ In their free time, you can find Derron at their plot at the Manhattan Community Gardens, volunteering, crafting, learning languages, writing, and escaping the realities of capitalism through reading fantasy fiction.
         social:
           - url: https://bsky.app/profile/derron.blue
             icon: fab fa-bluesky
