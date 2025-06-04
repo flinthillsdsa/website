@@ -1,14 +1,16 @@
 ---
 title: RED TALK - Immigration Education
 subtitle: June 13, 2025 @7pm CDT
-image: https://www.fhdsa.org/assets/img/events/redtalk.jpg
-alt: Poster
+
 
 caption:
   title: RED TALK - Immigration Education
   subtitle: June 13, 2025 @7pm CDT
   thumbnail: https://www.fhdsa.org/assets/img/events/redtalk.jpg
 ---
+
+<img src="/assets/img/events/redtalk.jpg" alt="Red Talk" width="300" />
+
 
 ### Join the DSA Chapters of Kansas for RED TALK: Immigration Education 
 <br>
