@@ -40,7 +40,12 @@ en: &DEFAULT_EN
         image: assets/img/team/placeholder.png
       - name: "Beccah (they/them)"
         role: "Co-secretary"
-        image: assets/img/team/placeholder.png
+        image: assets/img/team/beccah.png
+        bio:  |
+          **Beccah**...
+        social:
+          - url: https://www.facebook.com/RebaccahABromley/
+            icon: fab fa-facebook-f
       - name: "Al (they/them)"
         role: "Co-secretary"
         image: assets/img/team/placeholder.png
