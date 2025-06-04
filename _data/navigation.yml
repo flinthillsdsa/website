@@ -11,10 +11,10 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "About"
-      section: about
     - title: Events
       section: portfolio
+    - title: "About"
+      section: about
     - title: "Leadership"
       section: team
     - title: "Resources"
