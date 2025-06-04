@@ -8,22 +8,25 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].portfolio.text | markdownify }}</h3>
       </div>
     </div>
-    <div class="row">
-	{% for project in site.portfolio %}
-      <div class="col-md-4 col-sm-6 portfolio-item item-center">
-        <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
-            </div>
+<div class="row{% if site.portfolio | size == 1 %} justify-content-center{% endif %}">
+  {% for project in site.portfolio %}
+    <div class="col-md-4 col-sm-6 portfolio-item">
+      <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+        <div class="portfolio-hover">
+          <div class="portfolio-hover-content">
+            <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>{{ project.caption.title }}</h4>
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
         </div>
+        <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+      </a>
+      <div class="portfolio-caption">
+        <h4>{{ project.caption.title }}</h4>
+        <p class="text-muted">{{ project.caption.subtitle }}</p>
       </div>
+    </div>
+  {% endfor %}
+</div>
+
 	{% endfor %}
     </div>
   </div>
@@ -37,22 +40,25 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.portfolio.text | markdownify }}</h3>
       </div>
     </div>
-    <div class="row">
-	{% for project in site.portfolio %}
-      <div class="col-md-4 col-sm-6 portfolio-item item-center">
-        <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
-            </div>
+   <div class="row{% if site.portfolio | size == 1 %} justify-content-center{% endif %}">
+  {% for project in site.portfolio %}
+    <div class="col-md-4 col-sm-6 portfolio-item">
+      <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+        <div class="portfolio-hover">
+          <div class="portfolio-hover-content">
+            <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>{{ project.caption.title }}</h4>
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
         </div>
+        <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">
+      </a>
+      <div class="portfolio-caption">
+        <h4>{{ project.caption.title }}</h4>
+        <p class="text-muted">{{ project.caption.subtitle }}</p>
       </div>
+    </div>
+  {% endfor %}
+</div>
+
 	{% endfor %}
     </div>
   </div>
