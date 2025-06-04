@@ -66,30 +66,56 @@
 {% endfor %}
 <!-- End Portfolio Modals -->
 
-<!-- About Modals -->
+<!-- About Modals (styled like Contact section, with 3 inline buttons) -->
 {% for item in site.about %}
-  <div class="portfolio-modal modal fade" id="a{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr"><div class="rl"></div></div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <p>{{ item.content | markdownify }}</p>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+<div class="portfolio-modal modal fade" id="a{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr"><div class="rl"></div></div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="modal-body">
+              {% if item.title %}
+              <h2 class="text-uppercase text-center">{{ item.title }}</h2>
+              {% endif %}
+              {% if item.subtitle %}
+              <p class="item-intro text-muted text-center">{{ item.subtitle }}</p>
+              {% endif %}
+              <div class="text-left">
+                {{ item.content | markdownify }}
+              </div>
+
+              <!-- Optional Inline Buttons (max 3) -->
+              {% if item.buttons %}
+              <div class="text-center mt-4">
+                <div class="d-flex justify-content-center flex-wrap gap-2">
+                  {% for btn in item.buttons %}
+                  <a class="btn btn-primary mx-2 my-1" href="{{ btn.url }}" target="_blank">
+                    {{ btn.label }}
+                  </a>
+                  {% endfor %}
+                </div>
+              </div>
+              {% endif %}
+
+              <!-- Close button -->
+              <div class="text-center mt-4">
+                <button class="btn btn-secondary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   {{ site.data.sitetext[site.locale].portfolio.closebutton | default: "Close Window" }}
                 </button>
               </div>
+
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 {% endfor %}
 <!-- End About Modals -->
 
