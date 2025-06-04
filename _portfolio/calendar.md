@@ -1,22 +1,19 @@
 ---
-title: Calendar of Events
-#subtitle: 
-image: https://www.fhdsa.org/assets/img/about/calendar.png
-alt: Calendar icon
+title: RED TALK - Immigration Education
+subtitle: June 13, 2025 @7pm CDT
+image: https://www.fhdsa.org/assets/img/events/redtalk.jpg
+alt: Poster
 
 caption:
-  title: Calendar of Events
-  #subtitle: 
-  thumbnail: https://www.fhdsa.org/assets/img/about/calendar.png
+  title: RED TALK - Immigration Education
+  subtitle: June 13, 2025 @7pm CDT
+  thumbnail: https://www.fhdsa.org/assets/img/events/redtalk.jpg
 ---
 
-Here’s our public calendar of upcoming meetings, actions, and events:
+### Join the DSA Chapters of Kansas for RED TALK: Immigration Education 
 
-<iframe
-  src="https://calendar.google.com/calendar/embed?src=qv9emdlk7u8ghn6p5d3rlm1peapn1t9j@import.calendar.google.com&ctz=America/Chicago"
-  style="border: 0"
-  width="100%"
-  height="800"
-  frameborder="0"
-  scrolling="no">
-</iframe>
+#### June 13, 2025, 7pm CDT 
+
+Register by going here: https://flowto.it/eh4Nv9wAM4
+
+About the presenter: Luisa M. is a member of DSA’s National Political Committee, union organizer, and formerly undocumented immigrant who is speaking with chapters about the immigrant justice movement. This Red Talk will cover the history of deportation as a means of political control, and past and current crackdowns and how DSA can become a national leader in the movement. There will also be time for Q&A and a group discussion about how we can support communities in Kansas.
