@@ -1,13 +1,15 @@
 ---
-#title: Calendar of Events
+#title: Chapter Calendar
 #subtitle: 
 
 
 caption:
-  title: Upcoming Events
+  title: Calendar
   #subtitle: 
   thumbnail: https://flinthillsdsa.github.io/website/assets/img/about/calendar.png
 ---
+
+
 
 Here’s our public calendar of upcoming meetings, actions, and events:
 
