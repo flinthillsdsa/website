@@ -58,7 +58,7 @@ en: &DEFAULT_EN
           **Derron** is a vegan Marxist-Leninist organizer from Ohio. They are currently pursuing a PhD in adult learning and leadership at Kansas State University focusing on epistemogloy of adult learning. As an activist and educator they work to dismantle oppressive systems with the ultimate goal to drive positive change towards collective liberation, centering the liberation of individuals and communities who have been systematically denied access to life-sustaining resources and basic human dignity. They take their lead from folks like Frantz Fanon, James Baldwin, bell hooks, Paulo Freire, Myles Horton, Walter Mignolo, Maria Lugones, Aníbal Quijano, Audre Lorde, Angela Davis, and Toni Morrison, to guide their dialectical praxis in liberatory education. In their free time, you can find Derron at their plot at the Manhattan Community Gardens, volunteering, crafting, learning languages, writing, and escaping the realities of capitalism through reading fantasy fiction.
         social:
           - url: https://www.dialecticalpraxis.com
-            icon: fab fa-cirlce-user
+            icon: fab fa-circle-user
           - url: https://bsky.app/profile/dialecticalpraxis.com
             icon: fab fa-bluesky
           - url: https://www.instagram.com/derronstephen
