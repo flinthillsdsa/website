@@ -83,7 +83,7 @@ en: &DEFAULT_EN
         icon: "fab fa-instagram"
       - url: https://github.com/flinthillsdsa
         icon: "fab fa-github"
-      - url: https://bsky.app/profile/flinthillsdsa.bsky.social
+      - url: https://bsky.app/profile/fhdsa.org
         icon: "fab fa-bluesky"
 
 en-001: #English (World)
