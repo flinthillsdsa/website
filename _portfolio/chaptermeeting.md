@@ -1,11 +1,11 @@
 ---
 title: Chapter Meeting
-subtitle: Thursday, June 12 @ 6pm
+subtitle: Thursday, June 12 @ 5:30pm
 
 
 caption:
   title: Next Chapter Meeting
-  subtitle: Thursday, June 12 @ 6pm
+  subtitle: Thursday, June 12 @ 5:30pm
   thumbnail: https://www.fhdsa.org/assets/img/events/chaptermeeting.png
 ---
 
@@ -16,7 +16,7 @@ caption:
 
 <br>
 
-#### Thursday, June 12 @ 6pm, Manhattan Public Library & Discord
+#### Thursday, June 12 @ 6pm, Manhattan Public Library Auditorium & Discord
 <br>
 
 
