@@ -4,7 +4,7 @@ subtitle: TBD
 
 
 caption:
-  title: Chapter Meeting
+  title: Next Chapter Meeting
   subtitle: TBD
   thumbnail: https://www.fhdsa.org/assets/img/events/chaptermeeting.png
 ---
