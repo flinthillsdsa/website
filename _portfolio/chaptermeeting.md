@@ -1,11 +1,11 @@
 ---
 title: Chapter Meeting
-subtitle: TBD
+subtitle: Thursday, June 12 @ 6pm
 
 
 caption:
   title: Next Chapter Meeting
-  subtitle: TBD
+  subtitle: Thursday, June 12 @ 6pm
   thumbnail: https://www.fhdsa.org/assets/img/events/chaptermeeting.png
 ---
 
@@ -13,9 +13,12 @@ caption:
 
 
 ### Flint Hills DSA Chapter Meeting
+
+
+#### Thursday, June 12 @ 6pm, Manhattan Puclib Library & Discord
 <br>
-#### TBD
-<br>
+
+
 
 <br>
 
