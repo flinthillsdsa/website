@@ -14,8 +14,9 @@ caption:
 
 ### Flint Hills DSA Chapter Meeting
 
+<br>
 
-#### Thursday, June 12 @ 6pm, Manhattan Puclib Library & Discord
+#### Thursday, June 12 @ 6pm, Manhattan Public Library & Discord
 <br>
 
 
