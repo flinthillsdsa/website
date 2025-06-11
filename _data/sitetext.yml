@@ -31,7 +31,7 @@ en: &DEFAULT_EN
     people:
       - name: "Noah (he/they)"
         role: "Co-chair"
-        image: assets/img/team/placeholder.png
+        image: assets/img/team/noah.jpg
       - name: "Peter (he/they)"
         role: "Co-chair"
         image: assets/img/team/peter.jpg
