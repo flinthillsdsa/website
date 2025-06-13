@@ -6,10 +6,10 @@ subtitle:
 caption:
   title: KC Tenant Union Comes Out Victorious!
   subtitle: 
-  thumbnail: https://www.fhdsa.org/assets/img/events/kc-tenant-union.png
+  thumbnail: https://www.fhdsa.org/assets/img/events/kc-tenant-union.jpg
 ---
 
-<img src="/assets/img/events/kc-tenant-union.png" alt="Red Talk" width="300" />
+<img src="/assets/img/events/kc-tenant-union.jpg" alt="Red Talk" width="300" />
 
 
 ### WE HAVE A DEAL
