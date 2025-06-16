@@ -43,7 +43,8 @@ def post_event_to_bluesky(frontmatter, filepath):
 
     client = Client()
     client.login(os.getenv("BLUESKY_HANDLE"), os.getenv("BLUESKY_PASSWORD"))
-    client.post(post_content, image=image_url)
+    client.send_post(text=post_content, embed_url=image_url if image_url else None)
+
 
 def main():
     posted = load_posted_files()
