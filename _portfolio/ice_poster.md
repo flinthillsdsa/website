@@ -11,7 +11,7 @@ caption:
 bluesky_only: >
  This anti-immigration poster was found posted around the Manhattan City Park!
 
-hide_from_website: true
+hide_from_website: false
 ---
 
 
