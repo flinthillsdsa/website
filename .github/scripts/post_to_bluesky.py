@@ -5,6 +5,7 @@ import requests
 from atproto import Client, models
 
 TRACKING_FILE = ".bluesky_posted"
+BLUESKY_LIMIT = 300  # character limit per post
 
 def extract_frontmatter(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -36,19 +37,16 @@ def download_image(image_url):
 
 def post_event_to_bluesky(frontmatter, filepath):
     caption = frontmatter.get("caption", {})
-    title = caption.get("title", frontmatter.get("title", ""))
-    subtitle = caption.get("subtitle", frontmatter.get("subtitle", ""))
     image_url = caption.get("thumbnail", "")
-    alt_text = caption.get("alt", title)
-    bluesky_extra = frontmatter.get("bluesky_only", "").strip()
+    alt_text = caption.get("alt", "Image")
+    bluesky_text = frontmatter.get("bluesky_only", "").strip()
 
-    if not title:
-        print(f"Skipping {filepath}: no title found.")
+    if not bluesky_text:
+        print(f"Skipping {filepath}: no 'bluesky_only' text found.")
         return
 
-    post_text = f"{title}\n{subtitle}"
-    if bluesky_extra:
-        post_text += f"\n\n{bluesky_extra}"
+    if len(bluesky_text) > BLUESKY_LIMIT:
+        print(f"WARNING: Post in {filepath} exceeds {BLUESKY_LIMIT} characters ({len(bluesky_text)} chars).")
 
     client = Client()
     client.login(os.getenv("BLUESKY_HANDLE"), os.getenv("BLUESKY_PASSWORD"))
@@ -65,11 +63,11 @@ def post_event_to_bluesky(frontmatter, filepath):
                     )
                 ]
             )
-            client.send_post(text=post_text, embed=embed)
+            client.send_post(text=bluesky_text, embed=embed)
             print(f"Posted with image: {filepath}")
             return
 
-    client.send_post(text=post_text)
+    client.send_post(text=bluesky_text)
     print(f"Posted text only: {filepath}")
 
 def main():
