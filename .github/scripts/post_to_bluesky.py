@@ -26,9 +26,12 @@ def save_posted_file(filename):
         f.write(f"{filename}\n")
 
 def download_image(image_url):
-    response = requests.get(image_url)
-    if response.status_code == 200:
-        return response.content, image_url.split("/")[-1]
+    try:
+        response = requests.get(image_url)
+        if response.status_code == 200:
+            return response.content, image_url.split("/")[-1]
+    except Exception as e:
+        print(f"Failed to download image: {e}")
     return None, None
 
 def post_event_to_bluesky(frontmatter, filepath):
@@ -38,6 +41,7 @@ def post_event_to_bluesky(frontmatter, filepath):
     image_url = caption.get("thumbnail", "")
 
     if not title:
+        print(f"Skipping {filepath}: no title found.")
         return
 
     filename = os.path.basename(filepath)
@@ -50,24 +54,25 @@ def post_event_to_bluesky(frontmatter, filepath):
     client = Client()
     client.login(os.getenv("BLUESKY_HANDLE"), os.getenv("BLUESKY_PASSWORD"))
 
-    # If image exists, embed it
     if image_url:
         img_data, img_name = download_image(image_url)
         if img_data:
-            blob = client.upload_blob(img_data)
+            blob_response = client.upload_blob(img_data)
             embed = models.AppBskyEmbedImages.Main(
                 images=[
                     models.AppBskyEmbedImages.Image(
                         alt=title,
-                        image=blob
+                        image=blob_response.blob  # ✅ this is the fix
                     )
                 ]
             )
             client.send_post(text=post_text, embed=embed)
+            print(f"Posted with image: {filename}")
             return
 
-    # Fallback: post without image
+    # If no image or download fails, post plain text
     client.send_post(text=post_text)
+    print(f"Posted text only: {filename}")
 
 def main():
     posted = load_posted_files()
