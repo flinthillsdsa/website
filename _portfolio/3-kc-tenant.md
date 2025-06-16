@@ -9,7 +9,7 @@ caption:
   alt: Black and white photo of a group of folks standing together in front of glass doors with the following text - INDEPENDENCE TOWERS TENANT UNION BARGAINS WITH LANDLORD, SIGNS HISTORIC DEAL $290K RENT WITHHELD, NO BACK RENT OWED, NO EVICTIONS,      NEW LEASES, NEGOTIATED RENTS, MAJOR REPAIRS
   
 bluesky_only: >
- Eight months into their rent strike, Independence Towers Tenant Union held a two-hour bargaining session with their new landlord and signed an agreement which ensures that all current residents will receive new leases, rent will be set at rates       negotiated with the tenant union, among other things.
+ Eight months into their rent strike, Independence Towers Tenant Union held a two-hour bargaining session with their new landlord and signed an agreement which ensures that all current residents will receive new leases, among other things.
 
 hide_from_website: true
 ---
