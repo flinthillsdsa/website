@@ -46,10 +46,10 @@ def post_event_to_bluesky(frontmatter, filepath):
 
     filename = os.path.basename(filepath)
     slug = filename.replace('.md', '')
-    website_url = os.getenv("WEBSITE_URL", "https://www.fhdsa.org")
-    post_url = f"{website_url}/portfolio/{slug}"
+    # website_url = os.getenv("WEBSITE_URL", "https://www.fhdsa.org")
+    # post_url = f"{website_url}/portfolio/{slug}"
 
-    post_text = f"{title}\n{subtitle}\n\n{post_url}"
+    post_text = f"{title}\n{subtitle}"
 
     client = Client()
     client.login(os.getenv("BLUESKY_HANDLE"), os.getenv("BLUESKY_PASSWORD"))
