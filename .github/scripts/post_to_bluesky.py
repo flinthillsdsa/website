@@ -1,7 +1,7 @@
 import os
 import yaml
 import glob
-from bluesky import Client
+from atproto import Client
 
 TRACKING_FILE = ".bluesky_posted"
 
@@ -30,21 +30,24 @@ def post_event_to_bluesky(frontmatter, filepath):
     subtitle = caption.get("subtitle", frontmatter.get("subtitle", ""))
     image_url = caption.get("thumbnail", "")
 
-    if not title or not image_url:
+    if not title:
         return
 
     filename = os.path.basename(filepath)
     slug = filename.replace('.md', '')
-
     website_url = os.getenv("WEBSITE_URL", "https://www.fhdsa.org")
     post_url = f"{website_url}/portfolio/{slug}"
 
-    post_content = f"{title}\n{subtitle}\n\n{post_url}"
+    post_text = f"{title}\n{subtitle}\n\n{post_url}"
 
     client = Client()
     client.login(os.getenv("BLUESKY_HANDLE"), os.getenv("BLUESKY_PASSWORD"))
-    client.send_post(text=post_content, embed_url=image_url if image_url else None)
 
+    # Basic text post
+    if image_url:
+        client.send_post(text=post_text, embed_url=image_url)
+    else:
+        client.send_post(text=post_text)
 
 def main():
     posted = load_posted_files()
