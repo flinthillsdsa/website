@@ -1,0 +1,4 @@
+touch .bluesky_posted
+git add .bluesky_posted
+git commit -m "Add tracking file for Bluesky posts"
+git push
