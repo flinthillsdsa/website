@@ -39,17 +39,16 @@ def post_event_to_bluesky(frontmatter, filepath):
     title = caption.get("title", frontmatter.get("title", ""))
     subtitle = caption.get("subtitle", frontmatter.get("subtitle", ""))
     image_url = caption.get("thumbnail", "")
+    alt_text = caption.get("alt", title)
+    bluesky_extra = frontmatter.get("bluesky_only", "").strip()
 
     if not title:
         print(f"Skipping {filepath}: no title found.")
         return
 
-    filename = os.path.basename(filepath)
-    slug = filename.replace('.md', '')
-    # website_url = os.getenv("WEBSITE_URL", "https://www.fhdsa.org")
-    # post_url = f"{website_url}/portfolio/{slug}"
-
     post_text = f"{title}\n{subtitle}"
+    if bluesky_extra:
+        post_text += f"\n\n{bluesky_extra}"
 
     client = Client()
     client.login(os.getenv("BLUESKY_HANDLE"), os.getenv("BLUESKY_PASSWORD"))
@@ -61,18 +60,17 @@ def post_event_to_bluesky(frontmatter, filepath):
             embed = models.AppBskyEmbedImages.Main(
                 images=[
                     models.AppBskyEmbedImages.Image(
-                        alt=title,
-                        image=blob_response.blob  # ✅ this is the fix
+                        alt=alt_text,
+                        image=blob_response.blob
                     )
                 ]
             )
             client.send_post(text=post_text, embed=embed)
-            print(f"Posted with image: {filename}")
+            print(f"Posted with image: {filepath}")
             return
 
-    # If no image or download fails, post plain text
     client.send_post(text=post_text)
-    print(f"Posted text only: {filename}")
+    print(f"Posted text only: {filepath}")
 
 def main():
     posted = load_posted_files()
