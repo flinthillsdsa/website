@@ -1,7 +1,8 @@
 import os
 import yaml
 import glob
-from atproto import Client
+import requests
+from atproto import Client, models
 
 TRACKING_FILE = ".bluesky_posted"
 
@@ -24,6 +25,12 @@ def save_posted_file(filename):
     with open(TRACKING_FILE, 'a') as f:
         f.write(f"{filename}\n")
 
+def download_image(image_url):
+    response = requests.get(image_url)
+    if response.status_code == 200:
+        return response.content, image_url.split("/")[-1]
+    return None, None
+
 def post_event_to_bluesky(frontmatter, filepath):
     caption = frontmatter.get("caption", {})
     title = caption.get("title", frontmatter.get("title", ""))
@@ -43,11 +50,24 @@ def post_event_to_bluesky(frontmatter, filepath):
     client = Client()
     client.login(os.getenv("BLUESKY_HANDLE"), os.getenv("BLUESKY_PASSWORD"))
 
-    # Basic text post
+    # If image exists, embed it
     if image_url:
-        client.send_post(text=post_text, embed_url=image_url)
-    else:
-        client.send_post(text=post_text)
+        img_data, img_name = download_image(image_url)
+        if img_data:
+            blob = client.upload_blob(img_data)
+            embed = models.AppBskyEmbedImages.Main(
+                images=[
+                    models.AppBskyEmbedImages.Image(
+                        alt=title,
+                        image=blob
+                    )
+                ]
+            )
+            client.send_post(text=post_text, embed=embed)
+            return
+
+    # Fallback: post without image
+    client.send_post(text=post_text)
 
 def main():
     posted = load_posted_files()
