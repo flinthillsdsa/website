@@ -11,7 +11,7 @@ caption:
 bluesky_only: >
  Eight months into their rent strike, Independence Towers Tenant Union held a two-hour bargaining session with their new landlord and signed an agreement which ensures that all current residents will receive new leases, among other things.
 
-hide_from_website: true
+hide_from_website: false
 ---
 
 
