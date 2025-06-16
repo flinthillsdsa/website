@@ -11,7 +11,6 @@ caption:
 bluesky_only: >
   Join us at the Chapter Convention on July 10, 2025 at 6pm at the MHK Library as we discuss chapter strategy, vote for new leadership, and reflect on the year’s accomplishments.
 
-hide_from_website: true
 ---
 
 <img src="/assets/img/events/FHDSA-chapter-convention.png" alt="Red Talk" width="300" />
