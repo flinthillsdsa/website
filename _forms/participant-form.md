@@ -1,5 +1,5 @@
 ---
-layout: forms
+layout: form
 title: "Participant Information Form"
 ---
 
