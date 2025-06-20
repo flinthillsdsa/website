@@ -46,6 +46,12 @@ defaults:
     values:
       layout : resource
       section: resources
+  - scope:
+      path: ""
+      type: forms
+    values:
+      layout: page
+      section: forms
 
 # ----------------------------------------
 # Markdown processor
