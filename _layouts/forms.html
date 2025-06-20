@@ -13,38 +13,27 @@ document.getElementById("page-top").className="bg-light";
   margin-top: 150px;
 }
 
-/* Override Action Network's flex layout */
+/* Target the two-column layout directly */
+#form_col1, #form_col2 {
+  float: none !important;
+  width: 100% !important;
+  clear: both !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Stack the columns vertically */
+#form_col1 {
+  margin-bottom: 30px !important;
+}
+
+#form_col2 {
+  margin-top: 20px !important;
+}
+
+/* Make sure the form container doesn't use floats */
 .can_embed_form {
-  display: block !important;
-}
-
-.can_embed_form .form_builder {
-  display: block !important;
-}
-
-.can_embed_form .form_builder .form_area {
-  display: block !important;
-  width: 100% !important;
-}
-
-/* Make the main form container stack vertically */
-.can_embed_form .form_builder .form_area .action_form {
-  display: flex !important;
-  flex-direction: column !important;
-  width: 100% !important;
-}
-
-/* Target the specific containers that create the side-by-side layout */
-.can_embed_form .form_builder .form_area .action_form .form_section {
-  width: 100% !important;
-  margin-bottom: 20px !important;
-}
-
-/* Force submit section to full width and bottom */
-.can_embed_form .form_builder .form_area .action_form .form_section.submit_section {
-  width: 100% !important;
-  margin-top: 30px !important;
-  order: 999 !important;
+  overflow: visible !important;
 }
 
 /* Make submit button full width */
@@ -54,12 +43,7 @@ document.getElementById("page-top").className="bg-light";
   max-width: none !important;
   display: block !important;
   margin: 0 auto !important;
-}
-
-/* Override any flex properties on form sections */
-.can_embed_form .form_builder .form_area .action_form > * {
-  flex: none !important;
-  width: 100% !important;
+  padding: 12px 20px !important;
 }
 </style>
 <div class="container" id="pagecontainer">
