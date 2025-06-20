@@ -10,7 +10,56 @@ document.getElementById("page-top").className="bg-light";
 <style>
 #pagecontainer {
   margin-bottom: 150px;
-  margin-top: 150px; /* Add this - adjust the value as needed */
+  margin-top: 150px;
+}
+
+/* Override Action Network's flex layout */
+.can_embed_form {
+  display: block !important;
+}
+
+.can_embed_form .form_builder {
+  display: block !important;
+}
+
+.can_embed_form .form_builder .form_area {
+  display: block !important;
+  width: 100% !important;
+}
+
+/* Make the main form container stack vertically */
+.can_embed_form .form_builder .form_area .action_form {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+}
+
+/* Target the specific containers that create the side-by-side layout */
+.can_embed_form .form_builder .form_area .action_form .form_section {
+  width: 100% !important;
+  margin-bottom: 20px !important;
+}
+
+/* Force submit section to full width and bottom */
+.can_embed_form .form_builder .form_area .action_form .form_section.submit_section {
+  width: 100% !important;
+  margin-top: 30px !important;
+  order: 999 !important;
+}
+
+/* Make submit button full width */
+.can_embed_form input[type="submit"],
+.can_embed_form button[type="submit"] {
+  width: 100% !important;
+  max-width: none !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/* Override any flex properties on form sections */
+.can_embed_form .form_builder .form_area .action_form > * {
+  flex: none !important;
+  width: 100% !important;
 }
 </style>
 <div class="container" id="pagecontainer">
