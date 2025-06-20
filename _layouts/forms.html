@@ -1,3 +1,6 @@
+---
+layout: default
+---
 {% include nav.html %}
 {% if page.background == "grey" or page.background == "gray" %}
 <script>
@@ -6,68 +9,8 @@ document.getElementById("page-top").className="bg-light";
 {% endif %}
 
 <style>
-/* Fix container spacing */
 #pagecontainer {
   margin-bottom: 150px;
-}
-
-/* Make form full width and stack vertically */
-#can-form-area-participant-information-form-2 {
-  width: 100% !important;
-}
-
-/* Target the main form container */
-#can-form-area-participant-information-form-2 .form {
-  display: flex !important;
-  flex-direction: column !important;
-  width: 100% !important;
-}
-
-/* Make form fields container full width */
-#can-form-area-participant-information-form-2 .form-group,
-#can-form-area-participant-information-form-2 .form-line {
-  width: 100% !important;
-  margin-bottom: 15px !important;
-}
-
-/* Move submit button to bottom and make it full width */
-#can-form-area-participant-information-form-2 .form-submit,
-#can-form-area-participant-information-form-2 .submit-button-container {
-  width: 100% !important;
-  margin-top: 20px !important;
-  order: 999 !important; /* Ensures it goes to the bottom */
-}
-
-/* Style the submit button */
-#can-form-area-participant-information-form-2 input[type="submit"],
-#can-form-area-participant-information-form-2 button[type="submit"] {
-  width: 100% !important;
-  padding: 12px !important;
-  font-size: 16px !important;
-}
-
-/* Fix any side-by-side layouts */
-#can-form-area-participant-information-form-2 .form-row {
-  display: flex !important;
-  flex-direction: column !important;
-  width: 100% !important;
-}
-
-/* On larger screens, you might want some fields side by side */
-@media (min-width: 768px) {
-  #can-form-area-participant-information-form-2 .form-row {
-    flex-direction: row !important;
-    gap: 15px !important;
-  }
-  
-  #can-form-area-participant-information-form-2 .form-row .form-group {
-    flex: 1 !important;
-  }
-  
-  /* But keep submit button full width */
-  #can-form-area-participant-information-form-2 .form-submit {
-    width: 100% !important;
-  }
 }
 </style>
 
