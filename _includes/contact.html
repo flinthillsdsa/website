@@ -1,4 +1,8 @@
-
+<!-- _includes/contact.html -->
+{% comment %}
+  Contact Section: shows four buttons in a 2×2 grid,
+  each opening its respective modal.
+{% endcomment %}
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="page-section" id="{{ site.data.sitetext[site.locale].contact.section | default: 'contact' }}">
   <div class="container">
@@ -10,19 +14,58 @@
         </h2>
       </div>
     </div>
-    
-    <!-- Four buttons in 2x2 grid from site.contact -->
-    <div class="row justify-content-center mt-4">
-      {% for item in site.contact %}
+    <!-- Buttons grid -->
+    <div class="row justify-content-center align-items-start">
       <div class="col-sm-12 col-md-6 text-center mb-4">
-        <button class="btn btn-primary btn-xl text-uppercase w-100"
-                data-toggle="modal"
-                data-target="#c{{ forloop.index }}">
-          {{ item.caption.title }}
+        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-contact">
+          Contact Us
         </button>
       </div>
-      {% endfor %}
+      <div class="col-sm-12 col-md-6 text-center mb-4">
+        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-mailing">
+          Join Mailing List
+        </button>
+      </div>
+      <div class="col-sm-12 col-md-6 text-center mb-4">
+        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-discord">
+          Join Our Discord
+        </button>
+      </div>
+      <div class="col-sm-12 col-md-6 text-center mb-4">
+        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-membership">
+          Become a Member
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.contact.section | default: 'contact' }}">
+  <div class="container">
+    <!-- Buttons grid (no heading in this fallback) -->
+    <div class="row justify-content-center align-items-start">
+      <div class="col-sm-12 col-md-6 text-center mb-4">
+        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-contact">
+          Contact Us
+        </button>
+      </div>
+      <div class="col-sm-12 col-md-6 text-center mb-4">
+        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-mailing">
+          Join Mailing List
+        </button>
+      </div>
+      <div class="col-sm-12 col-md-6 text-center mb-4">
+        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-discord">
+          Join Our Discord
+        </button>
+      </div>
+      <div class="col-sm-12 col-md-6 text-center mb-4">
+        <button class="btn btn-primary btn-xl text-uppercase w-100" data-toggle="modal" data-target="#modal-membership">
+          Become a Member
+        </button>
+      </div>
     </div>
   </div>
 </section>
 {% endif %}
+<!-- End Contact -->
