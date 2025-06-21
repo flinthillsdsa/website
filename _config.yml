@@ -35,9 +35,9 @@ collections:
   forms:
     output: true
     permalink: /forms/:path/
-  #contact:
-    #output: true
-    #permalink: /contact/:path/
+  contact:
+    output: true
+    permalink: /contact/:path/
 
 # ----------------------------------------
 # Default front‐matter for resources
