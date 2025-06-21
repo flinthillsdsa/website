@@ -257,17 +257,14 @@
         <div class="row{% unless item.left_align %} justify-content-center{% endunless %}">
           <div class="col-lg-{% if item.large_modal %}10{% else %}8{% endif %}">
             <div class="modal-body{% unless item.left_align %} text-center{% endif %}">
-
               <!-- Modal heading -->
               {% if item.caption.title %}
               <h2 class="text-uppercase">{{ item.caption.title }}</h2>
               {% endif %}
-
               <!-- Modal content -->
               <div class="{% if item.left_align %}text-left{% else %}text-left{% endif %} mt-3">
                 {{ item.content | markdownify }}
               </div>
-
               <!-- Close Button -->
               <div class="text-center mt-4">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">
@@ -275,7 +272,6 @@
                   {{ site.data.sitetext[site.locale].portfolio.closebutton | default: "Close Window" }}
                 </button>
               </div>
-
             </div>
           </div>
         </div>
@@ -284,5 +280,3 @@
   </div>
 </div>
 {% endfor %}
-<!-- End Contact Modals -->
-
