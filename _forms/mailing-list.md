@@ -1,6 +1,6 @@
 ---
 layout: forms
-title: "Join Mailing List"
+title: "Join Our Mailing List"
 ---
 
 
