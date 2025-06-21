@@ -1,7 +1,7 @@
 --- 
 
 caption:
-  title: "Join Our Mailing List"
+  title: "Join Mailing List"
 large_modal: true
 left_align: true
 
