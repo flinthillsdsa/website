@@ -1,8 +1,10 @@
----
+--- 
+
 caption:
   title: "Join Our Discord"
 large_modal: true
 left_align: true
+
 ---
 
 ## Connect, Organize, and Build Power Together
